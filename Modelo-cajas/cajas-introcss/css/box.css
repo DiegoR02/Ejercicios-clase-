@@ -1,0 +1,57 @@
+.first-a-box{
+    background-color:rgb(49, 49, 49);
+    padding: 20px 30px 0px 50px;
+    margin-bottom: 65px;
+}
+
+.second-a-box{
+    padding-right: 30%;
+    margin-right: 15%;
+    margin-bottom: 90px;
+
+}
+.last-a-box{
+    padding-top: 30px;
+    margin-right: 30px;
+}
+.first-b-box{
+    margin-bottom: 15px;
+    padding-left: 15px;
+}
+.second-b-box{
+    margin-bottom: 100px;
+}
+.die-b-box{
+    margin-left: 10px;
+    margin-right: 20px;
+    display: contents;
+}
+.logo{
+    margin-right: 50px;
+}
+.first-c-box{
+    padding-left: 15px;
+}
+.second-c-box{
+    margin-bottom: 80px;
+}
+.third-c-box{
+margin-bottom: 20px;
+}
+.fourth-c-box{
+    margin-left: 200px;
+}
+.clear{
+    clear: both;
+}
+.second-icon{
+    float: right;
+    display: block;
+    margin: 45px 0px 0px 10px;
+}
+.first-icon{
+    float: right;
+    display: block;
+    margin: 45px 0px 0px 10px;
+    
+}

@@ -1,0 +1,18 @@
+.dad{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.first-box{
+    justify-content: space-around;
+   
+}
+.dad-second{
+    display: flex;
+    justify-content: space-between;
+}
+.dad-third{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+}

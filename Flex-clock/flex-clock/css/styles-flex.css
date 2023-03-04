@@ -1,0 +1,25 @@
+body{
+    background-image: linear-gradient(270deg, #ff5d51 0, #ff4b56 25%, #ff3858 50%, #ea2559 75%, #d7115a 100%);
+}
+
+.first-box{
+    display: flex;
+   flex-wrap: wrap;
+   padding-top: 400px;
+}
+.second-box{
+    
+    flex-direction: row;
+    flex-grow: 1;
+    text-align: center;
+}
+.number{
+    font-size: 60px;
+    color: white;
+    margin: 0px;
+}
+.word{
+    font-size: medium;
+    color: white;
+    margin: 0px;
+}

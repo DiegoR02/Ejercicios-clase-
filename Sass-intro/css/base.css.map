@@ -1,0 +1,13 @@
+{
+    "version": 3,
+    "sources": [
+        "../sass/_herencias.sass",
+        "base.css",
+        "../sass/_generales.sass",
+        "../sass/_mixin.sass",
+        "../sass/_variables.sass"
+    ],
+    "names": [],
+    "mappings": "AAAA;EACI,yCAAA;EACA,iBAAA;EACA,eAAA;ACCJ;;ADEA;EACI,yCAAA;ACCJ;;ACLA;ECFI,kCDGuB;EACvB,aAAA;ADQJ;;ACPA;EACI,yBENI;EFOJ,kBAAA;EACA,WAAA;ADUJ;;ACLA;EACI,oCEdI;EFeJ,WAAA;ADQJ;;ACPA;ECbI,8BDc4B;ECb5B,aAAA;EDcA,WAAA;ADWJ;ACVI;ECZA,mBDa4B;ECZ5B,kCDYuC;ECXvC,eAAA;EDYI,8BAAA;EACA,YAAA;ADcR;ACbQ;EACI,YAAA;ADeZ",
+    "file": "base.css"
+}

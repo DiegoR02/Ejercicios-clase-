@@ -1,0 +1,26 @@
+@import '_variables'
+@import '_mixin'
+@import '_herencias'
+.first-box
+    @include primera-parte(rgb(95, 39, 205))
+    padding: 40px
+h1
+    color: $white
+    text-align: center
+    margin: 0px
+    @extend %primer-titulo
+h2
+    @extend %titulo
+
+body
+    background-color: $white
+    margin: 0px
+.Dad-first
+    @include contenido-flexible(rgb(255, 255, 255))
+    margin: 0px
+    .son
+        @include item-contenido(rgb(0,0,0),rgb(0, 210, 211))
+        justify-content: space-between
+        margin: 10px
+        .second-son
+            margin: 10px

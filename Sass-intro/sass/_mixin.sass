@@ -1,0 +1,11 @@
+@mixin primera-parte($fondo-first)
+    background-color: $fondo-first
+    
+@mixin contenido-flexible($color-fondo)
+    background: $color-fondo
+    display: flex
+
+@mixin item-contenido($color-texto,$fondo-son)
+    color: $color-texto
+    background-color: $fondo-son
+    flex-wrap: wrap

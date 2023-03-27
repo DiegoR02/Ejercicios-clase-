@@ -1,0 +1,256 @@
+@import '_variables'
+@import '_mixin'
+@import '_herencia'
+body
+    color-scheme: dark
+    margin: 0px
+svg
+   height: 35px
+   display: inline-flex
+p 
+    margin: 0px
+    padding: 0px
+body
+   
+    background: $black
+img.c
+    display: flex
+    height:700px
+.first-line
+    background-color: $purple
+    padding: 8px 20px
+.btn-sing
+    @extend  %btn-sing
+    background-color: $sing-btn
+    color: $white
+.second-line 
+    @include line(rgb(68, 67, 67))  
+    padding: 16px 30px
+    display: flex
+    gap: 60px
+    align-items: center
+.nav-second-line
+    display: flex
+    gap: 15px
+.last-first-line
+    display: flex
+    justify-content: right
+.main-nav
+    display: flex
+    gap: 15px
+div.main
+    margin-bottom: 240px
+button.btn-light
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    color: $text-color
+    background: #61606000
+    border: none
+button.btn-light:hover
+    background-color: rgba(97, 94, 94, 0.493)
+    color: $white
+.btn-varios
+    display: flex
+    gap: 15px
+    justify-content: center
+    margin-bottom: 35px
+.first-title
+    @extend %titles
+    text-align: center
+    margin-bottom: 40px
+.point-backgraound-first
+    @extend %point-back
+    top:25%
+    
+strong
+    font: bold
+.intro
+    @extend %reference
+.nav
+    @extend %reference
+section
+    display: flex
+    margin-left: auto
+    margin-right: auto
+    margin-bottom: 240px
+    flex-direction: column
+    -webkit-box-align: center
+    align-items: center
+    -webkit-box-pack: center
+    justify-content: center
+    max-width: 880px
+    padding: 0px
+    position: relative
+    text-align: left
+.third-box-firts
+    background: rgba(23, 25, 28, 0.6)
+    width: 820px
+    height: 230px
+    border-radius: 24px
+
+.semi-circles
+    position: absolute
+    left: 0%
+    top: 68.3%
+    z-index: 2
+    max-width: 100%
+    height: auto
+.dots
+    position: absolute
+    right: 0%
+    top: 0%
+    max-width: 100%
+    height: auto
+.get-items
+    margin-top: 35px
+    display: flex
+    gap:20px
+    justify-content: center
+.a-get
+    text-decoration: none
+.get-taskade
+    @extend %reference
+    margin-top: 40px
+    font-size: 18px
+    font-family: Arial, Helvetica, sans-serif
+    font-weight: 700
+.items-plataforms
+    text-decoration: none
+.name-plataforms
+    @extend %plataforms
+i.a 
+    color: $white
+    font-size: 25px
+    margin-top: 10px
+.conteiner-icon-plataforms
+    border-radius: 15px
+    background-image: radial-gradient(circle at bottom,rgba(91,149,191,.4) 0,hsla(0,0%,9%,.8) 30%,rgba(30,30,30,.8) 100%)
+    width: 54px
+    height: 50px
+    justify-items: center
+.fourth-box
+    display: flex
+    flex-direction: column
+    align-items: center
+    text-align: center
+    margin-bottom: 240px
+.the-next
+    @extend %titles
+    text-align: center
+.five-tools
+    @extend %paragraph
+    font-size: 1.5rem
+    line-height: 1.8rem
+    letter-spacing: -.05rem
+    color: $text-color
+.point-backgraound
+    @extend %point-back
+    top: 200%
+.card-text
+    display: flex
+    flex-direction: row
+    gap: 120px
+    margin-bottom: 240px
+    align-items: center
+.texto
+    width: 30%
+    max-width: 500px
+    padding: 0px 0px 0px 80px
+    flex-direction: column
+    align-items: flex-start
+    -webkit-box-pack: center
+    justify-content: center
+.texto-one
+    text-align: left
+    align-items: flex-start
+    margin-bottom: 16px
+.texto-two
+    @extend %text-card
+    text-align: left
+    align-items: flex-start
+    margin-bottom: 40px
+.texto-three
+    display: flex
+    flex-direction: column
+.ai-writer
+    @extend %titles-card
+.point-backgraound-card
+    @extend %point-card
+    top: 2700px  
+.vd-blue
+    position: relative
+    z-index: 2
+    border-radius: 20px   
+.box-video
+    width: 50%
+    display: flex
+.remplaces
+    font-size: 14px
+    font-weight: 500
+    text-transform: uppercase
+    color: rgb(144, 152, 162)
+    text-align: left
+.logos
+    display: flex
+    gap: 20px
+.img-l
+    @extend %logos-card
+.card-img
+    width:50%
+    -webkit-box-pack: end
+    justify-content: flex-end
+    display: flex
+
+
+.malla::after
+   background-image: url(/static_images/landing/slideshow/Vector-Right.svg)
+   background-repeat: no-repeat
+   background-size: auto 100%
+   background-position: right center
+   @extend %malla-back
+.malla::before 
+   background-image: url(/static_images/landing/slideshow/Vector-Left.svg)
+   background-repeat: no-repeat
+   background-size: auto 100%
+   background-position: right center
+   @extend %malla-back
+
+
+
+
+    
+.general-button
+    background-color: $color-primary
+    color: $color-white
+    @extend %btn-general
+    border: none
+
+.secondary-button
+    background-color: $color-bg-reverse
+    color: $color-primary
+    @extend %btn-general
+    border: 1px solid $color-primary
+    &:hover
+        background-color: $color-primary
+        color: $color-white
+
+.result
+    color: $color-primary
+    font-weight: bold
+    font-size: 30px
+
+.bg-dark
+    background-color: $nav-menu-background !important
+
+
+
+
+.custom-drop
+    background: rgb(0, 0, 0)
+    padding: 24px 24px 10px
+    width: 250px
+    border-radius: 10px
+    border: 1px solid rgba(255, 255, 255, 0.15)
+    color: $color-white       

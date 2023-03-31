@@ -1,6 +1,12 @@
 @import '_variables'
 @import '_mixin'
 @import '_herencia'
+.Dad
+    display: flex
+    -webkit-box-pack: center
+    justify-content: center
+    flex-direction: column
+    padding: 0px
 body
     color-scheme: dark
     margin: 0px
@@ -17,27 +23,12 @@ img.c
     display: flex
     height:700px
 .first-line
-    background-color: $purple
+    background-color: rgba(93, 39, 67, 0.3)
     padding: 8px 20px
 .btn-sing
     @extend  %btn-sing
     background-color: $sing-btn
     color: $white
-.second-line 
-    @include line(rgb(68, 67, 67))  
-    padding: 16px 30px
-    display: flex
-    gap: 60px
-    align-items: center
-.nav-second-line
-    display: flex
-    gap: 15px
-.last-first-line
-    display: flex
-    justify-content: right
-.main-nav
-    display: flex
-    gap: 15px
 div.main
     margin-bottom: 240px
 button.btn-light
@@ -60,6 +51,8 @@ button.btn-light:hover
     @extend %titles
     text-align: center
     margin-bottom: 40px
+    margin-top: 40px
+
 .point-backgraound-first
     @extend %point-back
     top:25%
@@ -148,7 +141,14 @@ i.a
 .point-backgraound
     @extend %point-back
     top: 200%
-.card-text
+.point-backgraound-1
+    @extend %point-back
+    top: 1900px
+.point-backgraound-card-2
+    @extend %point-card
+    top: 2550px
+    left: 1200px
+div.card-text
     display: flex
     flex-direction: row
     gap: 120px
@@ -202,8 +202,437 @@ i.a
     -webkit-box-pack: end
     justify-content: flex-end
     display: flex
+.comments
+    display: flex
+    max-width: 1400px
+    flex-flow: column wrap
+    -webkit-box-pack: center
+    justify-content: center
+    -webkit-box-align: center
+    align-items: center
+    margin-bottom: 240px
+.comments-title
+    width: 100%
+    display: grid
+    grid-template-columns: auto minmax(400px, 50%)
+    -webkit-box-pack: justify
+    justify-content: space-between
+    -webkit-box-align: center
+    align-items: center
+    padding-bottom: 0px
+    margin-bottom: 64px
+.comments-love
+    display: flex
+    -webkit-box-pack: center
+    justify-content: center
+    width: 100%
+    max-width: 600px
+.text-love
+    @extend %titles-card
+.comments-btn
+    height: 100%
+    display: flex
+    -webkit-box-pack: end
+    justify-content: flex-end
+    -webkit-box-align: center
+    align-items: center
+.btn-more
+    padding: 0.6rem 1.5rem
+    transition: color .2s ease-in-out,background-color .2s ease-in-out,border-color .2s ease-in-out
+    border-color: hsla(0,0%,98%,.4)
+    background-color: $black
+    cursor: pointer
+    border-radius: 0.5rem
+    border-width: 1px
+.btn-more:hover
+    background-color: $color-primary
+.comments-cards
+    width: 100%
+    display: flex
+    -webkit-box-pack: justify
+    justify-content: space-between
+    gap: 20px
+.comments-customer
+    display: flex
+    width: 32.5%
+    flex-direction: column
+    -webkit-box-pack: start
+    justify-content: flex-start
+    align-items: flex-start
+    padding: 40px 0px 40px 32px
+    margin: 10px auto
+    background: $color-gray-600
+    box-shadow: rgba(255, 255, 255, 0.15) 0px 1px 3px inset, rgb(0, 0, 0) 0px -1px 3px inset
+    border-radius: 24px
+.comments-text
+    margin-bottom: 30px
+    line-height: 150%
+.customer
+    font-size: 1em
+    @extend %paragraph
+    line-height: 150%
+    color: #FAFAFA
+    width: 90%
+    text-align: left
+.comments-person
+    display: flex
+    -webkit-box-align: center
+    align-items: center
+.img-profile
+    width: 40px
+    height: 40px
+    aspect-ratio: auto
+    max-width: 100%
+.comments-name
+    display: flex
+    flex-direction: column
+    margin-left: 16px
+    -webkit-box-pack: center
+    justify-content: center
+.name
+    display: flex
+    flex-direction: column
+    margin-left: 16px
+    -webkit-box-pack: center
+    justify-content: center
+    font-size: 1em
+    color: #FAFAFA
+    font-family: 'Work Sans', sans-serif
+.comments-points
+    width: 100%
+    display: flex
+    -webkit-box-pack: center
+    justify-content: center
+    margin-top: 40px
+    gap: 10px
+.btn-points-first
+    border-radius: 100%
+    height: 20px
+    width: 20px
+    background-color: rgba(0, 0, 0, 0)
+.btn-points
+    border-radius: 35px  
+.last-cards
+    display: flex
+    flex-direction: column
+    -webkit-box-align: center
+    align-items: center
+    position: relative
+    max-width: 1400px
+    -webkit-box-pack: center
+    justify-content: center
+    padding: 0px 20px
+    overflow-x: clip
+    margin-bottom: 240px
 
+.title-workflows
+    display: flex
+    -webkit-box-pack: center
+    justify-content: center
+    align-items: flex-start
+    width: 100%
+    max-width: 1400px
+    margin-bottom: 80px
+.one-pltaform
+    @extend %titles
+    font-size: 2.8rem
+    line-height: 2.8rem
+.all-cards
+    display: grid
+    grid-template-columns: 1fr 1fr 1fr
+    width: 1115px
+    gap: 1rem
+    position: relative
+.card-workflows
+    display: flex
+    flex-direction: column
+    align-items: flex-start
+    background: rgba(16, 17, 19, 0.7)
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 3px inset, rgba(255, 255, 255, 0) 0px -1px 3px inset
+    border-radius: 20px
+    padding: 30px
+.card-img-top
+    border-radius: 10px
+    margin-bottom: 24px
+.card-title
+    font-weight: 600
+    font-size: 24px
+    line-height: 112%
+    color: $body-color
+    text-align: left
+.card-text
+    text-align: left
+    line-height: 1.5
+    font-weight: normal
+    color: $color-gray
+    margin: 12px 0px
+.companies
+    display: flex
+    width: 100%
+    display: flex
+    -webkit-box-align: center
+    align-items: center
+    flex-direction: column
+    margin-bottom: 240px
+.title-companies
+    margin-bottom: 40px
+.trusted
+    letter-spacing: .13em
+    text-transform: uppercase
+    font-family: $font-monospace
+    text-align: center
+    font-weight: bold
+    color: $body-color
+.companies-logo
+    display: inline-flex
+    flex-wrap: wrap
+    -webkit-box-align: center
+    align-items: center
+    -webkit-box-pack: center
+    justify-content: center
+    margin-bottom: 0px
+    width: 100%
+    box-sizing: border-box
+.lyfy
+    @extend %companies-brand
+.transfer
+    @extend %companies-brand
+.compass
+    @extend %companies-brand
+.netflix
+    @extend %companies-brand
+.booking
+    @extend %companies-brand
+.sony
+    @extend %companies-brand
+.trans-logo 
+    filter: grayscale(100%)
+    opacity: 0.5
+.conteiner-teams-c
+    border-top: 1px solid rgb(44, 48, 53)
+    border-bottom: 1px solid rgb(44, 48, 53)
+    border-radius: 0px
+.conteiner-teams-b
+    display: flex
+    align-items: center
+    padding: 70px 7.5%
+    margin-bottom: 140px
+    -webkit-box-align: center
+    margin-left: auto
+    margin-right: auto
+    margin-top: 140px
+    justify-content: center
+    box-sizing: border-box
+    -webkit-box-pack: center
+    max-width: 1400px
+    flex-direction: column
+.conteiner-teams-a
+    display: flex
+    flex-direction: column
+    align-items: center
+    text-align: center
+    -webkit-box-align: center
+h3.title-teams
+    @extend %titles
+    font-weight: 700
+    line-height: 128%
+    font-size: 40px 
+    text-align: center
+.taskade-gradient
+    background-color: red
+    background-image: $color-gradient
+    background-size: 100%
+    background-repeat: repeat
+    -webkit-background-clip: text
+    -webkit-text-fill-color: transparent
+p.text-teams
+    margin-bottom: 50px
+    color: rgb(197,197,197)
+    line-height: 1.5
+    font-size: 20px
+    text-align: center
+    font-family: $body-font-family
+.container-your-email-c
+    text-align: center
+    display: flex
+    -webkit-box-pack: center
+    justify-content: center
+    margin-top: 20px
+.container-your-email-b
+    display: flex
+    flex-wrap: wrap
+    min-width: 331px
+    justify-content: space-between
+    border-radius: 48px
+    background-color: $color-gray-500
+    color: $color-gray-100
+    padding: 10px 12px 10px 24px
+.your-email-a
+    display: flex
+    flex-wrap: wrap
+    justify-content: flex-start
+input.email-box
+    width: 180px
+    background-color: $color-bg-transparent
+    box-shadow: 0 6px 10px 0 rgba(0,0,0,.1)
+    padding-left: 12px
+    border:0px
+input.email-submit
+    border-radius: 2.5rem
+    padding: 0.6rem 1.25rem
+    background-color: $color-primary
+    color: $color-gray-100
+    border:0px
+    font-weight: 600
+.last-main
+    display: flex
+    flex-direction: column
+    width: 100%
+    background: rgb(0, 0, 0)
+    -webkit-box-align: center
+    align-items: center
+    border-bottom: 1px solid rgb(44, 48, 53)
+.row-colums
+    display: flex
+    width: 100%
+    max-width: 1400px
+    flex-direction: row
+    padding: 40px 30px
+    -webkit-box-pack: justify
+    justify-content: space-between
+    flex-wrap: wrap
+.taskade-colum
+    display: flex
+    flex-direction: column
+    padding: 0px
+.download-colum
+    display: flex
+    flex-direction: column
+    padding: 0px
+.productos-colum
+    display: flex
+    flex-direction: column
+    padding: 0px
+.templates-colum
+    display: flex
+    flex-direction: column
+    padding: 0px
+.colum-last-main-title
+    margin-bottom: 16px
+    color: rgb(255, 255, 255)
+    position: relative
+    display: inline-block
+    transition: opacity 200ms ease-in-out 0s
+    font-size: 15px
+    text-decoration: none
+    font-family: 'Work Sans', sans-serif
+    text-align: left
+.items-last-colum-main
+    text-decoration: none
+    font-weight: 400
+    position: relative
+    display: inline-block
+    transition: opacity 200ms ease-in-out 0s
+    color:$color-gray
+    font-size: 14px
+    line-height: 16px  
+    margin-bottom: 16px 
+    text-align: left
+.see-all-colum
+    display: flex
+    flex-direction: column
+.see-all-btn
+    font-size: 14px
+    line-height: 16px
+    cursor: pointer
+    background: none
+    border: none
+    color: rgb(255, 255, 255)
+    margin: 0px 0px 16px
+    padding: 0px
+    text-align: left
+    transition: color 200ms ease 0s
+    outline: none
+.generators-colum
+    display: flex
+    flex-direction: column
+    padding: 0px
+.blog-colum
+    display: flex
+    flex-direction: column
+    padding: 0px
+.rocket
+    margin-bottom: 2px
+    color: rgb(255, 255, 255)
+    text-decoration: none
+    margin-right: auto
+    position: relative
+    display: inline-block
+    text-align: left
+.text-foot
+    display: grid
+    width: 100%
+    max-width: 1400px
+    row-gap: 0px
+    padding: 40px 20px
+    -webkit-box-align: center
+    align-items: center
+    -webkit-box-pack: center
+    justify-content: center
+    text-align: center
+    grid-template-columns: 1fr
+    margin: auto
+.contenedor-text-foot
+    width: 600px
+    height: 40px
+    font-size: 16px
+    line-height: 40px
+    display: flex
+    overflow: hidden
+    color: rgb(255, 255, 255)
+.trancicion-lugares
+    list-style: none
+    padding-left:10px
+    animation: cambiar 7s infinite
+ul, p
+    margin: 0
 
+@keyframes cambiar
+    0%
+        margin-top:0
+    20%
+        margin-top:0
+    25%   
+        margin-top: -40px
+    50% 
+        margin-top: -40px  
+    55% 
+        margin-top: -80px 
+    80% 
+        margin-top: -80px        
+    85%
+       margin-top: -40px
+    95%
+        margin-top: -95% 
+    100%
+        margin-top: 0
+.taskade-privacy
+    justify-content: start
+    display: flex
+    flex-direction: row
+    text-align: left
+    font-size: 16px
+    align-items: center
+.taskade-year
+    @extend %taskade-terms
+.terms
+    @extend %taskade-terms
+.social-icon-b
+    display: flex
+.social-icon-a
+    fill: rgb(153, 153, 153)
+    margin-left: 5px
+    
 .malla::after
    background-image: url(/static_images/landing/slideshow/Vector-Right.svg)
    background-repeat: no-repeat
@@ -217,16 +646,11 @@ i.a
    background-position: right center
    @extend %malla-back
 
-
-
-
-    
 .general-button
     background-color: $color-primary
     color: $color-white
     @extend %btn-general
     border: none
-
 .secondary-button
     background-color: $color-bg-reverse
     color: $color-primary
@@ -235,18 +659,12 @@ i.a
     &:hover
         background-color: $color-primary
         color: $color-white
-
 .result
     color: $color-primary
     font-weight: bold
     font-size: 30px
-
 .bg-dark
     background-color: $nav-menu-background !important
-
-
-
-
 .custom-drop
     background: rgb(0, 0, 0)
     padding: 24px 24px 10px
@@ -254,3 +672,128 @@ i.a
     border-radius: 10px
     border: 1px solid rgba(255, 255, 255, 0.15)
     color: $color-white       
+
+
+
+
+
+
+
+
+    
+.login-back
+    display: flex
+    -webkit-box-align: center
+    align-items: center
+    -webkit-box-pack: center
+    justify-content: center
+    flex-direction: column
+    background: rgb(28, 31, 34)
+    min-height: 100dvh
+.login-square
+    display: flex
+    flex-direction: column
+    width: 100%
+    max-width: 460px
+    margin: 0px 20px
+.main-login
+    display: flex
+    flex-direction: column
+    padding: 30px 50px
+    background: rgb(23, 25, 28)
+    border: 0.5px solid rgb(44, 48, 53)
+    box-sizing: border-box
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 3px
+    border-radius: 20px
+.logo-login
+    display: flex
+    align-content: center
+    justify-content: center
+    width: 100%
+    height: 52px
+    margin: 0px auto 20px
+.login-title
+    display: flex
+    flex-direction: column
+    margin-bottom: 20px
+.login-login
+    font-weight: 400
+    font-size: 1.5rem
+    line-height: 1.5
+    color: rgb(227, 229, 232)
+    margin: 0px 0px 2px
+    font-family: Arial, Helvetica, sans-serif
+.login-welcome
+    font-size: 0.888875rem
+    line-height: 1.1883
+    color: rgb(147, 153, 159)
+    font-weight: normal
+    margin-bottom: 0px
+    font-family: Arial, Helvetica, sans-serif
+    margin-top: 0px 
+.sing-in-a
+    margin-bottom: 10px
+.singin 
+    display: flex
+    margin-bottom: 20px
+    flex-direction: column
+.google
+    @extend %sing-in
+.apple
+    @extend %sing-in
+    background: $black
+.single
+    @extend %sing-in
+.user-password
+    margin-bottom: 5px
+    margin-top: 5px
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: left
+    max-width: 100%
+.email-login
+    @extend %username
+    margin-bottom: 5px
+.password-login
+    @extend %username
+.btn-login
+    display: flex
+    width: 100%
+    -webkit-box-align: center
+    align-items: center
+    -webkit-box-pack: center
+    justify-content: center
+    height: 38px
+    border-radius: 10px
+    background: rgb(255, 45, 96)
+    color: rgb(255, 255, 255)
+    border: 0px
+    cursor: pointer
+    margin-top: 15px
+    font-size: 0.888875rem
+    line-height: 1.1883
+.forgot
+    margin-top: 10px
+    text-align: center
+.dropdown-item
+    color: rgb(147, 153, 159)
+    text-decoration: none
+    font-family: Arial, Helvetica, sans-serif
+    font-size: 0.888875rem
+.account
+    display: flex
+    text-align: center
+    justify-content: center
+    align-items: center
+    margin-top: 20px
+    font-size: 0.888875rem
+    line-height: 1.1883
+    color: rgb(147, 153, 159)
+    font-family: Arial, Helvetica, sans-serif
+.sing-up
+    color: rgb(147, 153, 159)
+    text-decoration: none
+    margin-left: 5px
+.card-body
+    padding: 0

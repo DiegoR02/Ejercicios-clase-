@@ -1,372 +1,1454 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-        <link rel="stylesheet" href="../css/base.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap" rel="stylesheet">
-    
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../css/base.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <div class="Dad">
-    <div class="first-line">
+      <div class="first-line">
         <div class="container text-center">
-                <div class="row">
-                     <p>🤖 <a class="intro" href="/uses/ai-writer"><strong>Introducing Taskade AI</strong>-now on alll platforms! Try for free and experience the future of productivity.</a></p>
-                </div>
-            </div>
-        </div> 
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container">
-              <a class="navbar-brand" href="#"><svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 168 42" xml:space="preserve" class="sc-914294e1-8 iQbpBp"><style type="text/css">.st4{fill:#fff}.st4,.st5{fill-rule:evenodd;clip-rule:evenodd}</style><path d="M42 21c0 1.6-.2 3.2-.5 4.7-.4 2-1.2 3.8-2.1 5.5H2.7c-.3-.5-.5-.9-.7-1.4C.8 27.2.1 24.4.1 21.3v-.4C0 9.4 9.4 0 21 0c5.4 0 10.3 2 14 5.4 1.4 1.2 2.6 2.6 3.6 4.2C40.8 12.8 42 16.8 42 21z" style="fill: rgb(246, 73, 66);"></path><path d="M42 21c0 1.6-.2 3.2-.5 4.7-.4 2-1.2 3.8-2.1 5.5-.8 1.5-1.9 2.9-3 4.1-2.3-.4-5-.5-10.2 1.7-4.5 1.9-4.8 1.5-9.5-.1l-4-2-3.3-.6c-.5-1-.8-2-1-3.1-.1-.5-.1-1.1-.1-1.6s.1-.9.2-1.4c0-.2.1-.3.1-.5 0-.1.1-.3.1-.4.5-1.5 1.4-2.9 2.7-4.1 1.2-1.1 2.8-1.9 4.8-2.4 2.5-.4 4.7-.9 6.5-1.4l2.1-.6c.3-.1.6-.2.8-.3 3.9-1.3 6.2-2.8 7.7-4.2l.2-.2 1.1-1.1c1.4-1.5 2.3-2.8 4-3.7C40.8 12.8 42 16.8 42 21z" style="fill: rgb(244, 206, 69);"></path><path d="M35 5.3c-1.4 1.4-3 2.6-4.8 3.5-.4.2-.9.4-1.3.6-.1 0-.1.1-.2.1-3.6 1.5-7.6 2.3-11.4 2.5-1.4.1-3.8.1-6.5.7h-.1c-1.1.2-2.3.6-3.5 1.1-2.2 1-4.4 2.6-5.8 5.1-.5.9-1 1.7-1.3 2.4v-.4C0 9.4 9.4 0 21 0c5.4 0 10.3 2 14 5.3z" style="fill: rgb(91, 149, 191);"></path><path d="M41.5 25.7c-.4 2-1.2 3.8-2.1 5.5-.8 1.5-1.9 2.9-3 4.1C32.5 39.5 27 42 21 42c-7.9 0-14.7-4.3-18.3-10.8-.3-.5-.5-.9-.7-1.4 1.8-.5 3.5-1 5.3-1.4.4-.1.8-.1 1.1-.2.1 0 .2 0 .4-.1h.3c.9-.2 1.9-.3 2.8-.3.7 0 1.3-.1 2-.1H15c3.4.3 8.6 2 14 1.6.7-.1 1.5-.1 2.2-.3.2 0 .3-.1.5-.1.1 0 .3-.1.4-.1.3-.1.6-.1.8-.2.4-.1.7-.2 1.1-.4.3-.1.6-.2.8-.3 2.7-1 4.3-1.8 6.7-2.2z" style="fill: rgb(239, 144, 164);"></path><path class="st4" d="M21.2 6.8c.7 0 1.3.4 1.6 1.1 0 .1.1.1.1.1s.1 0 .1-.1c.3-.4.8-.6 1.3-.6.2 0 .3 0 .5.1.7.2 1.2.8 1.3 1.4 0 .1.1.1.2.1h.1c.3-.2.7-.3 1-.3.3 0 .6.1.9.2.6.4.9 1 .9 1.7 0 .1.1.2.2.2h.1c.2-.1.4-.1.6-.1.4 0 .9.2 1.2.5.5.5.6 1.3.4 1.9 0 .1 0 .2.1.2h.2c.6 0 1.2.3 1.5.9.4.6.3 1.4-.1 1.9-.1.1 0 .2.1.2.7.1 1.2.6 1.4 1.3.2.7-.1 1.4-.6 1.8-.1.1-.1.2 0 .3.6.3 1 .9 1 1.6 0 .7-.4 1.3-1.1 1.6-.1 0-.1.2 0 .3.5.4.8 1.1.6 1.8-.2.7-.8 1.2-1.4 1.3-.1 0-.2.2-.1.2.4.5.4 1.3.1 1.9-.3.6-.9.9-1.5.9h-.2c-.1 0-.2.1-.1.2.2.6.1 1.3-.4 1.8-.3.3-.8.5-1.2.5-.2 0-.4 0-.6-.1h-.1c-.1 0-.2.1-.2.2.1.7-.3 1.3-.9 1.7-.3.2-.6.2-.9.2-.4 0-.7-.1-1-.3h-.1c-.1 0-.1.1-.2.1-.1.7-.6 1.2-1.3 1.4-.2 0-.3.1-.5.1-.5 0-1-.2-1.4-.7l-.1-.1c-.1 0-.1 0-.1.1-.3.6-.9 1-1.6 1-.7 0-1.3-.4-1.6-1.1 0-.1-.1-.1-.1-.1s-.1 0-.1.1c-.3.4-.8.6-1.3.6-.2 0-.3 0-.5-.1-.7-.2-1.2-.8-1.3-1.4 0-.1-.1-.1-.2-.1h-.1c-.3.2-.7.3-1 .3-.3 0-.6-.1-.9-.2-.6-.4-.9-1-.9-1.7 0-.1-.1-.2-.2-.2h-.1c-.2.1-.4.1-.6.1-.4 0-.9-.2-1.2-.5-.5-.5-.6-1.3-.4-1.9 0-.1 0-.2-.1-.2h-.2c-.6 0-1.2-.3-1.5-.9-.4-.6-.3-1.4.1-1.9.1-.1 0-.2-.1-.2-.7-.1-1.2-.6-1.4-1.3-.2-.7.1-1.4.6-1.8.1-.1.1-.2 0-.3-.6-.3-1-.9-1-1.6 0-.7.4-1.3 1.1-1.6.1 0 .1-.2 0-.3-.5-.4-.8-1.1-.6-1.8.2-.7.8-1.2 1.4-1.3.1 0 .2-.2.1-.2-.4-.5-.4-1.3-.1-1.9.3-.6.9-.9 1.5-.9h.2c.1 0 .2-.1.1-.2-.2-.6-.1-1.3.4-1.8.3-.3.8-.5 1.2-.5.2 0 .4 0 .6.1h.1c.1 0 .2-.1.2-.2 0-.7.3-1.3.9-1.7.3-.2.6-.2.9-.2.4 0 .7.1 1 .3h.1c.1 0 .1-.1.2-.1.1-.7.6-1.2 1.3-1.4.2 0 .3-.1.5-.1.5 0 1 .2 1.4.7l.1.1c.1 0 .1 0 .1-.1.3-.6.9-1 1.6-1z"></path><path class="st5" d="M32.3 19.6h-.5c-1 0-1.8-.6-2.2-1.4-.4.8-1.2 1.4-2.2 1.4-.8 0-1.4-.4-1.9-.9-.1-.2-.2-.3-.3-.5-.1.3-.3.5-.5.8-.4.4-1 .7-1.6.7-.2 0-.3 0-.5-.1-.8-.1-1.4-.7-1.7-1.3-.4.8-1.2 1.4-2.2 1.4-1 0-1.8-.6-2.2-1.4-.4.8-1.2 1.4-2.2 1.4-1 0-1.8-.6-2.2-1.4-.4.8-1.2 1.4-2.2 1.4h-.2c-.8.9-.3 1.6 1.7 1.6v4.4c0 .8.2 1.5.5 2.2.8 1.6 2.5 2.8 4.5 3.4 1.4.5 3 .7 4.6.7s3.2-.2 4.6-.7c1.3-.4 2.5-1.1 3.4-1.9 1-1 1.6-2.2 1.6-3.7v-4.4c2-.1 2.5-.8 1.7-1.7zm-4.8 6.1c1.5 0 1.6 2.2 0 2.2-1.5 0-1.4-2.2 0-2.2zm-13 2.2c-.2 0-.4 0-.6-.2-.9-.5-.6-2.1.6-2.1 1.3 0 1.5 1.7.5 2.1-.2.1-.3.2-.5.2z"></path><path class="st5" d="M36.7 21.1c0-.7-.2-1.4-.6-1.9.2-.7.3-1.4.1-2.1-.2-.7-.6-1.3-1.1-1.7.1-.7-.1-1.4-.4-2.1-.3-.6-.9-1-1.5-1.3-.1-.7-.4-1.4-1-1.9-.5-.5-1.1-.8-1.8-.9 0-.1-.1-.2-.1-.3-.3-.5-.7-1-1.3-1.3-.5-.3-1.1-.5-1.7-.5H27c-.4-.5-1.1-1-1.8-1.2-.3-.1-.6-.1-.9-.1-.4 0-.8.1-1.2.2-.6-.4-1.3-.7-2-.7s-1.4.2-1.9.6c-.4-.2-.8-.2-1.2-.2-.3 0-.6 0-.9.1-.7.2-1.3.6-1.7 1.1H15c-.6 0-1.2.2-1.7.5-.6.4-1.1.9-1.4 1.5-.7.1-1.4.4-1.9 1-.5.5-.8 1.1-.9 1.8-.6.3-1.2.8-1.6 1.4-.2.2-.3.5-.3.8-.1.3-.2.7-.1 1.1-.5.4-1 1.1-1.2 1.8-.2.7-.1 1.4.1 2-.4.6-.7 1.3-.7 2s.2 1.4.6 1.9c-.3.7-.3 1.4-.1 2.1.2.7.6 1.3 1.1 1.7-.1.6 0 1.3.3 1.9 0 .1.1.1.1.2.2.4.5.7.9 1 .2.2.4.3.6.4.1.4.2.8.4 1.2.1.3.3.5.5.7.5.5 1.1.8 1.8.9.3.6.8 1.2 1.4 1.6.5.3 1.1.5 1.7.5h.3c.4.6 1.1 1 1.8 1.2.3.1.6.1.9.1.4 0 .8-.1 1.2-.2.6.4 1.3.7 2 .7s1.4-.2 1.9-.6c.4.2.8.2 1.2.2.3 0 .6 0 .9-.1.7-.2 1.3-.6 1.7-1.1h.4c.6 0 1.2-.2 1.7-.5.6-.3 1.1-.9 1.4-1.5.7-.1 1.4-.4 1.9-1 .3-.3.5-.6.6-.9l.3-.9c.6-.3 1.2-.8 1.6-1.4.2-.3.3-.6.4-1 .1-.3.1-.7.1-1 .6-.4 1-1.1 1.2-1.8.2-.7.1-1.4-.1-2 .4-.5.7-1.2.7-2zm-2.8 1.6c-.1.1-.1.2 0 .3.5.4.7 1.1.6 1.8-.2.7-.8 1.2-1.4 1.3-.1 0-.2.1-.1.2.4.5.4 1.2.1 1.8-.2.4-.6.6-.9.8-.1 0-.3.1-.4.1h-.3c-.1 0-.1 0-.1.1v.1c.2.6.1 1.3-.4 1.8-.1.1-.2.2-.4.3-.3.2-.6.2-.9.2-.2 0-.4 0-.6-.1H29c-.1 0-.2.1-.1.2 0 .6-.3 1.3-.9 1.6-.3.2-.6.2-.9.2-.4 0-.7-.1-1-.3H26c-.1 0-.1.1-.2.1-.1.6-.6 1.2-1.2 1.4-.1 0-.3.1-.4.1-.5 0-1-.2-1.4-.7l-.1-.1c-.1 0-.1 0-.1.1-.3.6-.9 1-1.6 1-.7 0-1.3-.4-1.6-1 0-.1-.1-.1-.2-.1h-.1c-.3.4-.8.6-1.3.6-.1 0-.3 0-.4-.1-.7-.2-1.2-.8-1.3-1.4 0-.1-.1-.1-.2-.1h-.1c-.3.2-.6.3-1 .3-.3 0-.6-.1-.9-.2-.6-.4-.9-1-.8-1.7v-.1l-.1-.1h-.1c-.1 0-.2.1-.3.1h-.5c-.4 0-.7-.2-1-.5-.5-.5-.6-1.2-.4-1.9 0-.1 0-.2-.2-.2h-.1c-.5 0-.9-.2-1.3-.5-.1 0-.2-.1-.3-.3-.1-.2-.2-.3-.2-.5-.1-.5 0-1 .3-1.4.1-.1 0-.2-.1-.2-.6-.1-1.2-.6-1.4-1.2-.2-.7.1-1.4.6-1.8.1-.1.1-.2 0-.3-.6-.3-1-.9-1-1.6 0-.7.4-1.3 1-1.6.1 0 .1-.2 0-.3-.5-.4-.7-1.1-.6-1.8.3-.6.9-1 1.6-1.1.1 0 .2-.1.1-.2-.4-.5-.4-1.3-.1-1.9.3-.5.9-.9 1.5-.9h.2c.1 0 .2-.1.1-.2v-.2c-.2-.6 0-1.2.4-1.7.3-.3.8-.5 1.2-.5.2 0 .4 0 .6.1h.1c.1 0 .2-.1.1-.2 0-.7.3-1.3.9-1.6.3-.2.6-.2.9-.2.4 0 .7.1 1 .3h.1c.1 0 .1 0 .2-.1.1-.6.6-1.2 1.2-1.4.1 0 .3-.1.4-.1.5 0 1 .2 1.4.6l.1.1c.1 0 .1 0 .1-.1.3-.6.9-1 1.6-1 .7 0 1.3.4 1.6 1 0 .1.1.1.2.1 0 0 .1 0 .1-.1.3-.4.8-.6 1.3-.6.1 0 .3 0 .4.1.8.4 1.2 1 1.3 1.7 0 .1.1.1.2.1h.1c.3-.2.6-.3 1-.3.3 0 .6.1.9.2.2.2.5.4.6.6.2.3.3.7.3 1.1 0 .1.1.2.2.2h.1c.2-.1.4-.1.6-.1.4 0 .9.2 1.2.5.5.5.6 1.2.4 1.9 0 .1 0 .2.2.2h.1c.6 0 1.2.3 1.5.9.1.1.1.2.2.4.2.5 0 1.1-.3 1.5-.1.1 0 .2.1.2.7.1 1.2.6 1.4 1.2.2.7-.1 1.4-.6 1.8-.1.1-.1.2 0 .3.6.3 1 .9 1 1.6-.2.6-.7 1.2-1.3 1.4z"></path><path class="st4" d="M62.1 29c.2.2.4.6.4 1s-.2.7-.5 1c-.3.2-.7.4-1.2.4h-.5c-.9 0-1.8-.2-2.6-.7-.8-.5-1.4-1.1-1.8-1.9s-.7-1.7-.7-2.6v-6.6h-1.3c-.4 0-.7-.1-1-.3-.2-.2-.4-.5-.4-.8 0-.4.1-.6.4-.9.2-.2.6-.3 1-.3h1.3v-3.8c0-.4.1-.7.4-1 .3-.2.6-.4 1-.4s.8.1 1 .4c.3.2.4.6.4 1v3.8h2.4c.4 0 .7.1 1 .3.2.2.4.5.4.9 0 .3-.1.6-.4.8-.2.2-.6.3-1 .3H58v6.6c0 .7.2 1.3.6 1.8.4.5.9.7 1.6.7h1c.4-.1.6.1.9.3zm14.8-11.4c1.2.6 2.1 1.5 2.8 2.7.7 1.1 1 2.4 1 3.8V30c0 .4-.1.7-.4 1-.3.3-.6.4-1 .4s-.8-.1-1-.4c-.3-.3-.4-.6-.4-1v-1c-.7.8-1.5 1.4-2.4 1.8-1 .4-2 .6-3.1.6-1.4 0-2.6-.3-3.8-1-1.1-.6-2-1.5-2.6-2.7-.6-1.1-1-2.4-1-3.8s.3-2.6 1-3.8c.7-1.1 1.6-2 2.9-2.7 1.2-.6 2.6-1 4-1 1.5.2 2.8.6 4 1.2zm-1.4 10.8c.8-.4 1.4-1 1.8-1.8.5-.8.7-1.6.7-2.6 0-.9-.2-1.8-.7-2.6-.4-.8-1-1.4-1.8-1.8-.8-.4-1.6-.7-2.6-.7s-1.8.2-2.6.7c-.8.4-1.4 1-1.8 1.8-.5.8-.7 1.6-.7 2.6 0 .9.2 1.8.7 2.5.5.8 1.1 1.4 1.8 1.8.8.4 1.6.7 2.6.7.9 0 1.8-.2 2.6-.6zm11.4 2.5c-1.2-.4-2.1-.9-2.7-1.5-.2-.2-.4-.5-.4-.8 0-.4.2-.8.6-1 .4-.2.7-.4 1-.4.4 0 .7.2 1.1.5.4.4.9.7 1.6 1 .7.3 1.5.4 2.3.4 1.1 0 1.9-.2 2.5-.5.6-.3.9-.8.9-1.4 0-.6-.3-1-.9-1.4-.6-.4-1.6-.7-3-.9-3.7-.7-5.5-2.1-5.5-4.2 0-.9.3-1.6.8-2.2.6-.6 1.3-1.1 2.2-1.4.9-.3 1.9-.5 2.9-.5 1.2 0 2.4.2 3.3.6 1 .4 1.8.9 2.3 1.5.2.3.4.6.4.9 0 .3-.2.6-.5.8-.2.1-.5.2-.8.2-.5 0-.9-.2-1.4-.5-.5-.4-1-.7-1.5-.9s-1.2-.3-2-.3c-.9 0-1.6.1-2.2.4-.6.3-.8.7-.8 1.2 0 .4.1.7.3.9.2.2.6.5 1.1.7.5.2 1.3.4 2.3.6 2.1.4 3.6.9 4.4 1.6.9.7 1.3 1.6 1.3 2.7 0 .8-.2 1.6-.7 2.2-.5.7-1.2 1.2-2.1 1.6-.9.4-2 .6-3.3.6-1.1 0-2.3-.2-3.5-.5zm25.5-.7c0 .4-.2.7-.5 1-.3.2-.6.3-.9.3-.4 0-.8-.2-1-.5l-5.5-6.3-1.4 1.2V30c0 .4-.1.7-.4.9-.3.2-.6.4-1 .4s-.8-.1-1-.4c-.3-.2-.4-.6-.4-.9V11.8c0-.4.1-.7.4-.9.3-.2.6-.4 1-.4s.8.1 1 .4c.3.2.4.6.4.9v10.8l7-5.8c.2-.2.5-.3.9-.3s.7.1 1 .4c.2.2.4.5.4.8 0 .4-.2.7-.5.9l-5.3 4.4 5.6 6.3c.1.3.2.6.2.9zM126 17.6c1.2.6 2.1 1.5 2.8 2.7.7 1.1 1 2.4 1 3.8V30c0 .4-.1.7-.4 1-.3.3-.6.4-1.1.4-.4 0-.8-.1-1-.4-.3-.3-.4-.6-.4-1v-1c-.7.8-1.5 1.4-2.4 1.8-1 .4-2 .6-3.1.6-1.4 0-2.6-.3-3.8-1-1.1-.6-2-1.5-2.6-2.7-.6-1.1-1-2.4-1-3.8s.3-2.6 1-3.8c.7-1.1 1.6-2 2.9-2.7 1.2-.6 2.6-1 4-1 1.5.2 2.9.6 4.1 1.2zm-1.4 10.8c.8-.4 1.4-1 1.8-1.8.4-.8.7-1.6.7-2.5 0-.9-.2-1.8-.7-2.6-.4-.8-1-1.4-1.8-1.8-.8-.4-1.6-.7-2.6-.7s-1.8.2-2.6.7c-.8.4-1.4 1-1.8 1.8-.5.8-.7 1.6-.7 2.6 0 .9.2 1.8.7 2.5.5.8 1.1 1.4 1.8 1.8.8.4 1.6.7 2.6.7.9-.1 1.8-.3 2.6-.7zm24-17.5c.3.2.4.6.4 1V24c0 1.4-.3 2.6-1 3.8-.7 1.1-1.6 2-2.8 2.7-1.2.6-2.5 1-4 1s-2.8-.3-4-1c-1.2-.6-2.2-1.5-2.9-2.7-.7-1.1-1-2.4-1-3.8s.3-2.6 1-3.8c.6-1.1 1.5-2 2.6-2.7 1.1-.6 2.4-1 3.8-1 1.1 0 2.1.2 3.1.6 1 .4 1.8 1 2.4 1.8v-7.2c0-.4.1-.7.4-1 .3-.2.6-.4 1-.4.4.2.7.3 1 .6zm-4.9 17.5c.8-.4 1.4-1 1.8-1.8s.7-1.6.7-2.6c0-.9-.2-1.8-.7-2.5-.4-.8-1-1.4-1.8-1.8-.8-.4-1.6-.7-2.6-.7s-1.8.2-2.6.7c-.8.4-1.4 1-1.8 1.8-.4.8-.7 1.6-.7 2.5 0 .9.2 1.8.7 2.6.5.8 1.1 1.4 1.8 1.8.8.4 1.6.7 2.6.7.9-.1 1.8-.3 2.6-.7zm23.9-3.8c-.2.2-.6.3-.9.3h-10.9c.2 1.2.8 2.2 1.8 3 1 .8 2.2 1.1 3.7 1.1.6 0 1.2-.1 1.8-.3.6-.2 1.1-.4 1.5-.7.3-.2.6-.3.9-.3s.7.1.9.3c.3.3.5.6.5.9 0 .3-.2.6-.5.8-.7.5-1.5.9-2.4 1.2-1 .3-1.9.5-2.8.5-1.6 0-3-.3-4.2-.9-1.2-.6-2.2-1.5-2.9-2.6-.7-1.1-1.1-2.4-1.1-3.8s.3-2.7 1-3.8c.7-1.1 1.6-2 2.8-2.6 1.2-.6 2.5-.9 4-.9s2.8.3 3.8.9c1.1.6 1.9 1.4 2.5 2.5.6 1.1.9 2.3.9 3.7 0 .2-.1.5-.4.7zM157.4 20c-.9.7-1.4 1.7-1.7 2.9h9.6c-.2-1.2-.7-2.1-1.4-2.9-.8-.7-1.8-1.1-3.1-1.1-1.4 0-2.5.4-3.4 1.1z"></path></svg>
-              </a>
-              <div class="d-flex">
-                <button class="general-button d-lg-none me-3">Sign up</button>    
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-                  aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <!-- button hamburguesa que se despliega en responsive -->
-              </div>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-                      aria-expanded="false">
-                      Product
-                    </a>
-                    <ul class="dropdown-menu custom-drop" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item text-white" href="#">Download Apps</a></li>
-                      <li><a class="dropdown-item text-white" href="#">Instant Demo</a></li>
-                      <li><a class="dropdown-item text-white" href="#">Features</a></li>
-                      <li><a class="dropdown-item text-white" href="#">Updates</a></li>
-                      <li><a class="dropdown-item text-white" href="#">Security</a></li>
-                    </ul>
+          <div class="row">
+            <p>
+              🤖
+              <a class="intro" href="/uses/ai-writer"
+                ><strong>Introducing Taskade AI</strong>-now on alll platforms!
+                Try for free and experience the future of productivity.</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand" href="#"
+            ><svg
+              id="Layer_1"
+              xmlns="http://www.w3.org/2000/svg"
+              x="0"
+              y="0"
+              viewBox="0 0 168 42"
+              xml:space="preserve"
+              class="sc-914294e1-8 iQbpBp"
+            >
+              <style type="text/css">
+                .st4 {
+                  fill: #fff;
+                }
+                .st4,
+                .st5 {
+                  fill-rule: evenodd;
+                  clip-rule: evenodd;
+                }
+              </style>
+              <path
+                d="M42 21c0 1.6-.2 3.2-.5 4.7-.4 2-1.2 3.8-2.1 5.5H2.7c-.3-.5-.5-.9-.7-1.4C.8 27.2.1 24.4.1 21.3v-.4C0 9.4 9.4 0 21 0c5.4 0 10.3 2 14 5.4 1.4 1.2 2.6 2.6 3.6 4.2C40.8 12.8 42 16.8 42 21z"
+                style="fill: rgb(246, 73, 66)"
+              ></path>
+              <path
+                d="M42 21c0 1.6-.2 3.2-.5 4.7-.4 2-1.2 3.8-2.1 5.5-.8 1.5-1.9 2.9-3 4.1-2.3-.4-5-.5-10.2 1.7-4.5 1.9-4.8 1.5-9.5-.1l-4-2-3.3-.6c-.5-1-.8-2-1-3.1-.1-.5-.1-1.1-.1-1.6s.1-.9.2-1.4c0-.2.1-.3.1-.5 0-.1.1-.3.1-.4.5-1.5 1.4-2.9 2.7-4.1 1.2-1.1 2.8-1.9 4.8-2.4 2.5-.4 4.7-.9 6.5-1.4l2.1-.6c.3-.1.6-.2.8-.3 3.9-1.3 6.2-2.8 7.7-4.2l.2-.2 1.1-1.1c1.4-1.5 2.3-2.8 4-3.7C40.8 12.8 42 16.8 42 21z"
+                style="fill: rgb(244, 206, 69)"
+              ></path>
+              <path
+                d="M35 5.3c-1.4 1.4-3 2.6-4.8 3.5-.4.2-.9.4-1.3.6-.1 0-.1.1-.2.1-3.6 1.5-7.6 2.3-11.4 2.5-1.4.1-3.8.1-6.5.7h-.1c-1.1.2-2.3.6-3.5 1.1-2.2 1-4.4 2.6-5.8 5.1-.5.9-1 1.7-1.3 2.4v-.4C0 9.4 9.4 0 21 0c5.4 0 10.3 2 14 5.3z"
+                style="fill: rgb(91, 149, 191)"
+              ></path>
+              <path
+                d="M41.5 25.7c-.4 2-1.2 3.8-2.1 5.5-.8 1.5-1.9 2.9-3 4.1C32.5 39.5 27 42 21 42c-7.9 0-14.7-4.3-18.3-10.8-.3-.5-.5-.9-.7-1.4 1.8-.5 3.5-1 5.3-1.4.4-.1.8-.1 1.1-.2.1 0 .2 0 .4-.1h.3c.9-.2 1.9-.3 2.8-.3.7 0 1.3-.1 2-.1H15c3.4.3 8.6 2 14 1.6.7-.1 1.5-.1 2.2-.3.2 0 .3-.1.5-.1.1 0 .3-.1.4-.1.3-.1.6-.1.8-.2.4-.1.7-.2 1.1-.4.3-.1.6-.2.8-.3 2.7-1 4.3-1.8 6.7-2.2z"
+                style="fill: rgb(239, 144, 164)"
+              ></path>
+              <path
+                class="st4"
+                d="M21.2 6.8c.7 0 1.3.4 1.6 1.1 0 .1.1.1.1.1s.1 0 .1-.1c.3-.4.8-.6 1.3-.6.2 0 .3 0 .5.1.7.2 1.2.8 1.3 1.4 0 .1.1.1.2.1h.1c.3-.2.7-.3 1-.3.3 0 .6.1.9.2.6.4.9 1 .9 1.7 0 .1.1.2.2.2h.1c.2-.1.4-.1.6-.1.4 0 .9.2 1.2.5.5.5.6 1.3.4 1.9 0 .1 0 .2.1.2h.2c.6 0 1.2.3 1.5.9.4.6.3 1.4-.1 1.9-.1.1 0 .2.1.2.7.1 1.2.6 1.4 1.3.2.7-.1 1.4-.6 1.8-.1.1-.1.2 0 .3.6.3 1 .9 1 1.6 0 .7-.4 1.3-1.1 1.6-.1 0-.1.2 0 .3.5.4.8 1.1.6 1.8-.2.7-.8 1.2-1.4 1.3-.1 0-.2.2-.1.2.4.5.4 1.3.1 1.9-.3.6-.9.9-1.5.9h-.2c-.1 0-.2.1-.1.2.2.6.1 1.3-.4 1.8-.3.3-.8.5-1.2.5-.2 0-.4 0-.6-.1h-.1c-.1 0-.2.1-.2.2.1.7-.3 1.3-.9 1.7-.3.2-.6.2-.9.2-.4 0-.7-.1-1-.3h-.1c-.1 0-.1.1-.2.1-.1.7-.6 1.2-1.3 1.4-.2 0-.3.1-.5.1-.5 0-1-.2-1.4-.7l-.1-.1c-.1 0-.1 0-.1.1-.3.6-.9 1-1.6 1-.7 0-1.3-.4-1.6-1.1 0-.1-.1-.1-.1-.1s-.1 0-.1.1c-.3.4-.8.6-1.3.6-.2 0-.3 0-.5-.1-.7-.2-1.2-.8-1.3-1.4 0-.1-.1-.1-.2-.1h-.1c-.3.2-.7.3-1 .3-.3 0-.6-.1-.9-.2-.6-.4-.9-1-.9-1.7 0-.1-.1-.2-.2-.2h-.1c-.2.1-.4.1-.6.1-.4 0-.9-.2-1.2-.5-.5-.5-.6-1.3-.4-1.9 0-.1 0-.2-.1-.2h-.2c-.6 0-1.2-.3-1.5-.9-.4-.6-.3-1.4.1-1.9.1-.1 0-.2-.1-.2-.7-.1-1.2-.6-1.4-1.3-.2-.7.1-1.4.6-1.8.1-.1.1-.2 0-.3-.6-.3-1-.9-1-1.6 0-.7.4-1.3 1.1-1.6.1 0 .1-.2 0-.3-.5-.4-.8-1.1-.6-1.8.2-.7.8-1.2 1.4-1.3.1 0 .2-.2.1-.2-.4-.5-.4-1.3-.1-1.9.3-.6.9-.9 1.5-.9h.2c.1 0 .2-.1.1-.2-.2-.6-.1-1.3.4-1.8.3-.3.8-.5 1.2-.5.2 0 .4 0 .6.1h.1c.1 0 .2-.1.2-.2 0-.7.3-1.3.9-1.7.3-.2.6-.2.9-.2.4 0 .7.1 1 .3h.1c.1 0 .1-.1.2-.1.1-.7.6-1.2 1.3-1.4.2 0 .3-.1.5-.1.5 0 1 .2 1.4.7l.1.1c.1 0 .1 0 .1-.1.3-.6.9-1 1.6-1z"
+              ></path>
+              <path
+                class="st5"
+                d="M32.3 19.6h-.5c-1 0-1.8-.6-2.2-1.4-.4.8-1.2 1.4-2.2 1.4-.8 0-1.4-.4-1.9-.9-.1-.2-.2-.3-.3-.5-.1.3-.3.5-.5.8-.4.4-1 .7-1.6.7-.2 0-.3 0-.5-.1-.8-.1-1.4-.7-1.7-1.3-.4.8-1.2 1.4-2.2 1.4-1 0-1.8-.6-2.2-1.4-.4.8-1.2 1.4-2.2 1.4-1 0-1.8-.6-2.2-1.4-.4.8-1.2 1.4-2.2 1.4h-.2c-.8.9-.3 1.6 1.7 1.6v4.4c0 .8.2 1.5.5 2.2.8 1.6 2.5 2.8 4.5 3.4 1.4.5 3 .7 4.6.7s3.2-.2 4.6-.7c1.3-.4 2.5-1.1 3.4-1.9 1-1 1.6-2.2 1.6-3.7v-4.4c2-.1 2.5-.8 1.7-1.7zm-4.8 6.1c1.5 0 1.6 2.2 0 2.2-1.5 0-1.4-2.2 0-2.2zm-13 2.2c-.2 0-.4 0-.6-.2-.9-.5-.6-2.1.6-2.1 1.3 0 1.5 1.7.5 2.1-.2.1-.3.2-.5.2z"
+              ></path>
+              <path
+                class="st5"
+                d="M36.7 21.1c0-.7-.2-1.4-.6-1.9.2-.7.3-1.4.1-2.1-.2-.7-.6-1.3-1.1-1.7.1-.7-.1-1.4-.4-2.1-.3-.6-.9-1-1.5-1.3-.1-.7-.4-1.4-1-1.9-.5-.5-1.1-.8-1.8-.9 0-.1-.1-.2-.1-.3-.3-.5-.7-1-1.3-1.3-.5-.3-1.1-.5-1.7-.5H27c-.4-.5-1.1-1-1.8-1.2-.3-.1-.6-.1-.9-.1-.4 0-.8.1-1.2.2-.6-.4-1.3-.7-2-.7s-1.4.2-1.9.6c-.4-.2-.8-.2-1.2-.2-.3 0-.6 0-.9.1-.7.2-1.3.6-1.7 1.1H15c-.6 0-1.2.2-1.7.5-.6.4-1.1.9-1.4 1.5-.7.1-1.4.4-1.9 1-.5.5-.8 1.1-.9 1.8-.6.3-1.2.8-1.6 1.4-.2.2-.3.5-.3.8-.1.3-.2.7-.1 1.1-.5.4-1 1.1-1.2 1.8-.2.7-.1 1.4.1 2-.4.6-.7 1.3-.7 2s.2 1.4.6 1.9c-.3.7-.3 1.4-.1 2.1.2.7.6 1.3 1.1 1.7-.1.6 0 1.3.3 1.9 0 .1.1.1.1.2.2.4.5.7.9 1 .2.2.4.3.6.4.1.4.2.8.4 1.2.1.3.3.5.5.7.5.5 1.1.8 1.8.9.3.6.8 1.2 1.4 1.6.5.3 1.1.5 1.7.5h.3c.4.6 1.1 1 1.8 1.2.3.1.6.1.9.1.4 0 .8-.1 1.2-.2.6.4 1.3.7 2 .7s1.4-.2 1.9-.6c.4.2.8.2 1.2.2.3 0 .6 0 .9-.1.7-.2 1.3-.6 1.7-1.1h.4c.6 0 1.2-.2 1.7-.5.6-.3 1.1-.9 1.4-1.5.7-.1 1.4-.4 1.9-1 .3-.3.5-.6.6-.9l.3-.9c.6-.3 1.2-.8 1.6-1.4.2-.3.3-.6.4-1 .1-.3.1-.7.1-1 .6-.4 1-1.1 1.2-1.8.2-.7.1-1.4-.1-2 .4-.5.7-1.2.7-2zm-2.8 1.6c-.1.1-.1.2 0 .3.5.4.7 1.1.6 1.8-.2.7-.8 1.2-1.4 1.3-.1 0-.2.1-.1.2.4.5.4 1.2.1 1.8-.2.4-.6.6-.9.8-.1 0-.3.1-.4.1h-.3c-.1 0-.1 0-.1.1v.1c.2.6.1 1.3-.4 1.8-.1.1-.2.2-.4.3-.3.2-.6.2-.9.2-.2 0-.4 0-.6-.1H29c-.1 0-.2.1-.1.2 0 .6-.3 1.3-.9 1.6-.3.2-.6.2-.9.2-.4 0-.7-.1-1-.3H26c-.1 0-.1.1-.2.1-.1.6-.6 1.2-1.2 1.4-.1 0-.3.1-.4.1-.5 0-1-.2-1.4-.7l-.1-.1c-.1 0-.1 0-.1.1-.3.6-.9 1-1.6 1-.7 0-1.3-.4-1.6-1 0-.1-.1-.1-.2-.1h-.1c-.3.4-.8.6-1.3.6-.1 0-.3 0-.4-.1-.7-.2-1.2-.8-1.3-1.4 0-.1-.1-.1-.2-.1h-.1c-.3.2-.6.3-1 .3-.3 0-.6-.1-.9-.2-.6-.4-.9-1-.8-1.7v-.1l-.1-.1h-.1c-.1 0-.2.1-.3.1h-.5c-.4 0-.7-.2-1-.5-.5-.5-.6-1.2-.4-1.9 0-.1 0-.2-.2-.2h-.1c-.5 0-.9-.2-1.3-.5-.1 0-.2-.1-.3-.3-.1-.2-.2-.3-.2-.5-.1-.5 0-1 .3-1.4.1-.1 0-.2-.1-.2-.6-.1-1.2-.6-1.4-1.2-.2-.7.1-1.4.6-1.8.1-.1.1-.2 0-.3-.6-.3-1-.9-1-1.6 0-.7.4-1.3 1-1.6.1 0 .1-.2 0-.3-.5-.4-.7-1.1-.6-1.8.3-.6.9-1 1.6-1.1.1 0 .2-.1.1-.2-.4-.5-.4-1.3-.1-1.9.3-.5.9-.9 1.5-.9h.2c.1 0 .2-.1.1-.2v-.2c-.2-.6 0-1.2.4-1.7.3-.3.8-.5 1.2-.5.2 0 .4 0 .6.1h.1c.1 0 .2-.1.1-.2 0-.7.3-1.3.9-1.6.3-.2.6-.2.9-.2.4 0 .7.1 1 .3h.1c.1 0 .1 0 .2-.1.1-.6.6-1.2 1.2-1.4.1 0 .3-.1.4-.1.5 0 1 .2 1.4.6l.1.1c.1 0 .1 0 .1-.1.3-.6.9-1 1.6-1 .7 0 1.3.4 1.6 1 0 .1.1.1.2.1 0 0 .1 0 .1-.1.3-.4.8-.6 1.3-.6.1 0 .3 0 .4.1.8.4 1.2 1 1.3 1.7 0 .1.1.1.2.1h.1c.3-.2.6-.3 1-.3.3 0 .6.1.9.2.2.2.5.4.6.6.2.3.3.7.3 1.1 0 .1.1.2.2.2h.1c.2-.1.4-.1.6-.1.4 0 .9.2 1.2.5.5.5.6 1.2.4 1.9 0 .1 0 .2.2.2h.1c.6 0 1.2.3 1.5.9.1.1.1.2.2.4.2.5 0 1.1-.3 1.5-.1.1 0 .2.1.2.7.1 1.2.6 1.4 1.2.2.7-.1 1.4-.6 1.8-.1.1-.1.2 0 .3.6.3 1 .9 1 1.6-.2.6-.7 1.2-1.3 1.4z"
+              ></path>
+              <path
+                class="st4"
+                d="M62.1 29c.2.2.4.6.4 1s-.2.7-.5 1c-.3.2-.7.4-1.2.4h-.5c-.9 0-1.8-.2-2.6-.7-.8-.5-1.4-1.1-1.8-1.9s-.7-1.7-.7-2.6v-6.6h-1.3c-.4 0-.7-.1-1-.3-.2-.2-.4-.5-.4-.8 0-.4.1-.6.4-.9.2-.2.6-.3 1-.3h1.3v-3.8c0-.4.1-.7.4-1 .3-.2.6-.4 1-.4s.8.1 1 .4c.3.2.4.6.4 1v3.8h2.4c.4 0 .7.1 1 .3.2.2.4.5.4.9 0 .3-.1.6-.4.8-.2.2-.6.3-1 .3H58v6.6c0 .7.2 1.3.6 1.8.4.5.9.7 1.6.7h1c.4-.1.6.1.9.3zm14.8-11.4c1.2.6 2.1 1.5 2.8 2.7.7 1.1 1 2.4 1 3.8V30c0 .4-.1.7-.4 1-.3.3-.6.4-1 .4s-.8-.1-1-.4c-.3-.3-.4-.6-.4-1v-1c-.7.8-1.5 1.4-2.4 1.8-1 .4-2 .6-3.1.6-1.4 0-2.6-.3-3.8-1-1.1-.6-2-1.5-2.6-2.7-.6-1.1-1-2.4-1-3.8s.3-2.6 1-3.8c.7-1.1 1.6-2 2.9-2.7 1.2-.6 2.6-1 4-1 1.5.2 2.8.6 4 1.2zm-1.4 10.8c.8-.4 1.4-1 1.8-1.8.5-.8.7-1.6.7-2.6 0-.9-.2-1.8-.7-2.6-.4-.8-1-1.4-1.8-1.8-.8-.4-1.6-.7-2.6-.7s-1.8.2-2.6.7c-.8.4-1.4 1-1.8 1.8-.5.8-.7 1.6-.7 2.6 0 .9.2 1.8.7 2.5.5.8 1.1 1.4 1.8 1.8.8.4 1.6.7 2.6.7.9 0 1.8-.2 2.6-.6zm11.4 2.5c-1.2-.4-2.1-.9-2.7-1.5-.2-.2-.4-.5-.4-.8 0-.4.2-.8.6-1 .4-.2.7-.4 1-.4.4 0 .7.2 1.1.5.4.4.9.7 1.6 1 .7.3 1.5.4 2.3.4 1.1 0 1.9-.2 2.5-.5.6-.3.9-.8.9-1.4 0-.6-.3-1-.9-1.4-.6-.4-1.6-.7-3-.9-3.7-.7-5.5-2.1-5.5-4.2 0-.9.3-1.6.8-2.2.6-.6 1.3-1.1 2.2-1.4.9-.3 1.9-.5 2.9-.5 1.2 0 2.4.2 3.3.6 1 .4 1.8.9 2.3 1.5.2.3.4.6.4.9 0 .3-.2.6-.5.8-.2.1-.5.2-.8.2-.5 0-.9-.2-1.4-.5-.5-.4-1-.7-1.5-.9s-1.2-.3-2-.3c-.9 0-1.6.1-2.2.4-.6.3-.8.7-.8 1.2 0 .4.1.7.3.9.2.2.6.5 1.1.7.5.2 1.3.4 2.3.6 2.1.4 3.6.9 4.4 1.6.9.7 1.3 1.6 1.3 2.7 0 .8-.2 1.6-.7 2.2-.5.7-1.2 1.2-2.1 1.6-.9.4-2 .6-3.3.6-1.1 0-2.3-.2-3.5-.5zm25.5-.7c0 .4-.2.7-.5 1-.3.2-.6.3-.9.3-.4 0-.8-.2-1-.5l-5.5-6.3-1.4 1.2V30c0 .4-.1.7-.4.9-.3.2-.6.4-1 .4s-.8-.1-1-.4c-.3-.2-.4-.6-.4-.9V11.8c0-.4.1-.7.4-.9.3-.2.6-.4 1-.4s.8.1 1 .4c.3.2.4.6.4.9v10.8l7-5.8c.2-.2.5-.3.9-.3s.7.1 1 .4c.2.2.4.5.4.8 0 .4-.2.7-.5.9l-5.3 4.4 5.6 6.3c.1.3.2.6.2.9zM126 17.6c1.2.6 2.1 1.5 2.8 2.7.7 1.1 1 2.4 1 3.8V30c0 .4-.1.7-.4 1-.3.3-.6.4-1.1.4-.4 0-.8-.1-1-.4-.3-.3-.4-.6-.4-1v-1c-.7.8-1.5 1.4-2.4 1.8-1 .4-2 .6-3.1.6-1.4 0-2.6-.3-3.8-1-1.1-.6-2-1.5-2.6-2.7-.6-1.1-1-2.4-1-3.8s.3-2.6 1-3.8c.7-1.1 1.6-2 2.9-2.7 1.2-.6 2.6-1 4-1 1.5.2 2.9.6 4.1 1.2zm-1.4 10.8c.8-.4 1.4-1 1.8-1.8.4-.8.7-1.6.7-2.5 0-.9-.2-1.8-.7-2.6-.4-.8-1-1.4-1.8-1.8-.8-.4-1.6-.7-2.6-.7s-1.8.2-2.6.7c-.8.4-1.4 1-1.8 1.8-.5.8-.7 1.6-.7 2.6 0 .9.2 1.8.7 2.5.5.8 1.1 1.4 1.8 1.8.8.4 1.6.7 2.6.7.9-.1 1.8-.3 2.6-.7zm24-17.5c.3.2.4.6.4 1V24c0 1.4-.3 2.6-1 3.8-.7 1.1-1.6 2-2.8 2.7-1.2.6-2.5 1-4 1s-2.8-.3-4-1c-1.2-.6-2.2-1.5-2.9-2.7-.7-1.1-1-2.4-1-3.8s.3-2.6 1-3.8c.6-1.1 1.5-2 2.6-2.7 1.1-.6 2.4-1 3.8-1 1.1 0 2.1.2 3.1.6 1 .4 1.8 1 2.4 1.8v-7.2c0-.4.1-.7.4-1 .3-.2.6-.4 1-.4.4.2.7.3 1 .6zm-4.9 17.5c.8-.4 1.4-1 1.8-1.8s.7-1.6.7-2.6c0-.9-.2-1.8-.7-2.5-.4-.8-1-1.4-1.8-1.8-.8-.4-1.6-.7-2.6-.7s-1.8.2-2.6.7c-.8.4-1.4 1-1.8 1.8-.4.8-.7 1.6-.7 2.5 0 .9.2 1.8.7 2.6.5.8 1.1 1.4 1.8 1.8.8.4 1.6.7 2.6.7.9-.1 1.8-.3 2.6-.7zm23.9-3.8c-.2.2-.6.3-.9.3h-10.9c.2 1.2.8 2.2 1.8 3 1 .8 2.2 1.1 3.7 1.1.6 0 1.2-.1 1.8-.3.6-.2 1.1-.4 1.5-.7.3-.2.6-.3.9-.3s.7.1.9.3c.3.3.5.6.5.9 0 .3-.2.6-.5.8-.7.5-1.5.9-2.4 1.2-1 .3-1.9.5-2.8.5-1.6 0-3-.3-4.2-.9-1.2-.6-2.2-1.5-2.9-2.6-.7-1.1-1.1-2.4-1.1-3.8s.3-2.7 1-3.8c.7-1.1 1.6-2 2.8-2.6 1.2-.6 2.5-.9 4-.9s2.8.3 3.8.9c1.1.6 1.9 1.4 2.5 2.5.6 1.1.9 2.3.9 3.7 0 .2-.1.5-.4.7zM157.4 20c-.9.7-1.4 1.7-1.7 2.9h9.6c-.2-1.2-.7-2.1-1.4-2.9-.8-.7-1.8-1.1-3.1-1.1-1.4 0-2.5.4-3.4 1.1z"
+              ></path>
+            </svg>
+          </a>
+          <div class="d-flex">
+            <button class="general-button d-lg-none me-3">Sign up</button>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Product
+                </a>
+                <ul
+                  class="dropdown-menu custom-drop"
+                  aria-labelledby="navbarDropdown"
+                >
+                  <li>
+                    <a class="dropdown-item text-white" href="#"
+                      >Download Apps</a
+                    >
                   </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-                      aria-expanded="false">
-                      Solutions
-                    </a>
-                    <ul class="dropdown-menu custom-drop" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item text-white" href="#">Taskade AI</a></li>
-                      <li><a class="dropdown-item text-white" href="#">Project Management</a></li>
-                      <li><a class="dropdown-item text-white" href="#">Task Management</a></li>
-                      <li><a class="dropdown-item text-white" href="#">Mind Mapping</a></li>
-                      <li><a class="dropdown-item text-white" href="#">Remote Work</a></li>
-                      <li><a class="dropdown-item text-white" href="#">Non-Profit</a></li>
-                      <li><a class="dropdown-item text-white" href="#">Education</a></li>
-                      <li><a class="dropdown-item text-white" href="#">Startup</a></li>
-                    </ul>
+                  <li>
+                    <a class="dropdown-item text-white" href="#"
+                      >Instant Demo</a
+                    >
                   </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-                      aria-expanded="false">
-                      Learn
-                    </a>
-                    <ul class="dropdown-menu custom-drop" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item text-white" href="#">Blog</a></li>
-                      <li><a class="dropdown-item text-white" href="#">Support</a></li>
-                      <li><a class="dropdown-item text-white" href="#">Commuity</a></li>
-                      <li><a class="dropdown-item text-white" href="#">Get Help</a></li>
-                      <li><a class="dropdown-item text-white" href="#">Reviews</a></li>
-                      <li><a class="dropdown-item text-white" href="#">Videos</a></li>
-                      <li><a class="dropdown-item text-white" href="#">FAQ</a></li>
-                    </ul>
-                  </li>                 
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Templates</a>
+                  <li>
+                    <a class="dropdown-item text-white" href="#">Features</a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
+                  <li>
+                    <a class="dropdown-item text-white" href="#">Updates</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item text-white" href="#">Security</a>
                   </li>
                 </ul>
-                <form class="d-none d-lg-flex">
-                  <a class="nav-link contact-link text-white" href="#">Contact sales</a>
-                  <a class="nav-link text-white" href="#">Login</a>
-                  <button class="general-button">Sign up for free</button>        
-                </form>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Solutions
+                </a>
+                <ul
+                  class="dropdown-menu custom-drop"
+                  aria-labelledby="navbarDropdown"
+                >
+                  <li>
+                    <a class="dropdown-item text-white" href="#">Taskade AI</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item text-white" href="#"
+                      >Project Management</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item text-white" href="#"
+                      >Task Management</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item text-white" href="#"
+                      >Mind Mapping</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item text-white" href="#">Remote Work</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item text-white" href="#">Non-Profit</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item text-white" href="#">Education</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item text-white" href="#">Startup</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Learn
+                </a>
+                <ul
+                  class="dropdown-menu custom-drop"
+                  aria-labelledby="navbarDropdown"
+                >
+                  <li><a class="dropdown-item text-white" href="#">Blog</a></li>
+                  <li>
+                    <a class="dropdown-item text-white" href="#">Support</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item text-white" href="#">Commuity</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item text-white" href="#">Get Help</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item text-white" href="#">Reviews</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item text-white" href="#">Videos</a>
+                  </li>
+                  <li><a class="dropdown-item text-white" href="#">FAQ</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Templates</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+            </ul>
+            <form class="d-none d-lg-flex">
+              <a class="nav-link contact-link text-white" href="#"
+                >Contact sales</a
+              >
+              <a class="nav-link text-white" href="../html/login.html">Login</a>
+              <button class="general-button">Sign up for free</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container text-center main">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="first-title">
+              Build a second brain<br />for your teams.
+            </h2>
+            <div class="point-backgraound-first"></div>
+          </div>
+          <div class="col-12">
+            <div class="btn-varios">
+              <button class="btn btn-light" type="button">
+                <i class="bi bi-robot"></i>AI Writer
+              </button>
+              <button class="btn btn-light" type="button">
+                <i class="bi bi-check2-square"></i>Tasks & Projects
+              </button>
+              <button class="btn btn-light" type="button">
+                <i class="bi bi-pencil-square"></i>Notes & Docs
+              </button>
+              <button class="btn btn-light" type="button">
+                <i class="bi bi-share"></i>Mind Maps
+              </button>
+              <button class="btn btn-light" type="button">
+                <i class="bi bi-camera-video"></i>Video Chats
+              </button>
+            </div>
+            <div class="malla"></div>
+            <div class="malla"></div>
+          </div>
+          <div class="col-12">
+            <img
+              class="rounded mx-auto d-block c"
+              width="100%"
+              src="../img/img-1-3.png"
+            />
+          </div>
+        </div>
+      </div>
+      <section>
+        <div class="third-box">
+          <img
+            class="semi-circles"
+            src="../img/semicircles-1.png"
+            alt="semi-circles"
+          />
+          <img class="dots" src="../img/downloaddots-1.png" alt="dots" />
+          <div class="third-box-firts">
+            <div class="third-box-second">
+              <div class="container text-center">
+                <div class="row">
+                  <div class="col-12">
+                    <a class="a-get" href="https://www.taskade.com/downloads "
+                      ><h2 class="get-taskade">GET TASKADE ON ANY DIVICE</h2></a
+                    >
+                  </div>
+                  <div class="get-items">
+                    <a
+                      class="items-plataforms"
+                      href="https://play.google.com/store/apps/details?id=com.taskade.mobile"
+                    >
+                      <div class="conteiner-icon-plataforms">
+                        <i class="bi bi-android a"></i>
+                      </div>
+                      <p class="name-plataforms">Android</p>
+                    </a>
+                    <a
+                      class="items-plataforms"
+                      href="https://apps.apple.com/us/app/taskade-team-productivity/id1264713923"
+                    >
+                      <div class="conteiner-icon-plataforms">
+                        <i class="bi bi-android a"></i>
+                      </div>
+                      <p class="name-plataforms">IOS</p>
+                    </a>
+                    <a
+                      class="items-plataforms"
+                      href="https://apps.taskade.com/updates/Taskade-4.2.8-universal.dmg"
+                    >
+                      <div class="conteiner-icon-plataforms">
+                        <i class="bi bi-apple a"></i>
+                      </div>
+                      <p class="name-plataforms">Mac</p>
+                    </a>
+                    <a
+                      class="items-plataforms"
+                      href="https://apps.taskade.com/updates/Taskade_Setup_4.2.8.exe"
+                    >
+                      <div class="conteiner-icon-plataforms">
+                        <i class="bi bi-windows a"></i>
+                      </div>
+                      <p class="name-plataforms">Windows</p>
+                    </a>
+                    <a
+                      class="items-plataforms"
+                      href="https://apps.taskade.com/updates/Taskade_4.2.8_x86_64.AppImage"
+                    >
+                      <div class="conteiner-icon-plataforms">
+                        <i class="bi bi-ubuntu a"></i>
+                      </div>
+                      <p class="name-plataforms">Linux(86)</p>
+                    </a>
+                    <a
+                      class="items-plataforms"
+                      href="https://apps.taskade.com/updates/Taskade_4.2.8_arm64.AppImage"
+                    >
+                      <div class="conteiner-icon-plataforms">
+                        <i class="bi bi-ubuntu a"></i>
+                      </div>
+                      <p class="name-plataforms">Linux(Arm)</p>
+                    </a>
+                    <a
+                      class="items-plataforms"
+                      href="https://chrome.google.com/webstore/detail/taskade/hcobdfnjjaceclfdjpmmpiknimccjpmf?hl=en-US"
+                    >
+                      <div class="conteiner-icon-plataforms">
+                        <i class="bi bi-browser-chrome a"></i>
+                      </div>
+                      <p class="name-plataforms">Chrome</p>
+                    </a>
+                    <a
+                      class="items-plataforms"
+                      href="https://addons.mozilla.org/en-US/firefox/addon/taskade-app/"
+                    >
+                      <div class="conteiner-icon-plataforms">
+                        <i class="bi bi-browser-firefox a"></i>
+                      </div>
+                      <p class="name-plataforms">Firefox</p>
+                    </a>
+                    <a
+                      class="items-plataforms"
+                      href="https://microsoftedge.microsoft.com/addons/detail/oocnohmkpeeideflaepaogbgkgdggdic"
+                    >
+                      <div class="conteiner-icon-plataforms">
+                        <i class="bi bi-browser-edge a"></i>
+                      </div>
+                      <p class="name-plataforms">Edge</p>
+                    </a>
+                  </div>
+                </div>
               </div>
             </div>
-          </nav>
-
-    <div class="container text-center main">
+          </div>
+        </div>
+      </section>
+      <div class="container text-center">
         <div class="row">
-            <div class="col-12">
-                    <h2 class="first-title"> Build a second brain<br>for your teams.</h2>
-                    <div class="point-backgraound-first"></div>
+          <div class="col-12">
+            <div class="fourth-box">
+              <h2 class="the-next">
+                The next generation<br />
+                of team<br />
+                collaboration.
+              </h2>
+              <p class="five-tools">
+                Five tools in one to help you stay organized and get work done.
+                No <br />
+                more gettings lost in tabs. with Taskade, all your work is one
+                place
+              </p>
+              <div class="point-backgraound-1"></div>
             </div>
-            <div class="col-12">
-                <div class="btn-varios">
-                    <button class="btn btn-light" type="button"><i class="bi bi-robot"></i>AI Writer</button>
-                    <button class="btn btn-light" type="button"><i class="bi bi-check2-square"></i>Tasks & Projects</button>
-                    <button class="btn btn-light" type="button"><i class="bi bi-pencil-square"></i>Notes & Docs</button>
-                    <button class="btn btn-light" type="button"><i class="bi bi-share"></i>Mind Maps</button>
-                    <button class="btn btn-light" type="button"><i class="bi bi-camera-video"></i>Video Chats</button>
+          </div>
+          <div class="col-12">
+            <div class="card-text">
+              <div class="texto">
+                <div class="text-one">
+                  <h2 class="ai-writer">Al Content Writer</h2>
+                </div>
+                <div class="texto-two">
+                  <p>
+                    Create amazing content 10x faster, generate instant outlines
+                    and more for your projects.
+                  </p>
+                </div>
+                <div class="texto-three">
+                  <div class="remplaces">
+                    <p class="title-remplace">Remplace</p>
                   </div>
-                  <div class="malla"></div>
-                  <div class="malla"></div>
-            </div>
-            <div class="col-12">
-                    <img class="rounded mx-auto d-block c"  src="../img/img-1-3.png"/>
-            </div>
-        </div>
-    </div>    
-    <section>
-        <div class="third-box">
-            <img class="semi-circles" src="../img/semicircles-1.png" alt="semi-circles">
-            <img class="dots" src="../img/downloaddots-1.png" alt="dots">
-            <div class="third-box-firts">
-                <div class="third-box-second">
-                    <div class="container text-center">
-                        <div class="row">
-                            <div class="col-12">
-                                <a class="a-get" href=""><h2 class="get-taskade" >GET  TASKADE  ON  ANY  DIVICE</h2></a>
-                            </div>
-                            <div class="get-items">
-                                    <a class="items-plataforms"href="">
-                                        <div class="conteiner-icon-plataforms ">
-                                            <i class="bi bi-android a"></i>
-                                        </div>
-                                        <p class="name-plataforms">Android</p>
-                                    </a>
-                                    <a class="items-plataforms"href="">
-                                        <div class="conteiner-icon-plataforms">
-                                            <i class="bi bi-android a"></i>
-                                        </div>
-                                        <p class="name-plataforms">IOS</p>
-                                    </a>
-                                    <a class="items-plataforms"href="">
-                                        <div class="conteiner-icon-plataforms">
-                                            <i class="bi bi-apple a"></i>
-                                        </div>
-                                        <p class="name-plataforms">Mac</p>
-                                    </a>
-                                    <a class="items-plataforms"href="">
-                                        <div class="conteiner-icon-plataforms">
-                                            <i class="bi bi-windows a"></i>
-                                        </div>
-                                        <p class="name-plataforms">Windows</p>
-                                    </a>
-                                    <a class="items-plataforms"href="">
-                                        <div class="conteiner-icon-plataforms">
-                                            <i class="bi bi-ubuntu a"></i>
-                                        </div>
-                                        <p class="name-plataforms">Linux</p>
-                                    </a>
-                                    <a class="items-plataforms"href="">
-                                        <div class="conteiner-icon-plataforms">
-                                            <i class="bi bi-ubuntu a"></i>
-                                        </div>
-                                        <p class="name-plataforms">Linux</p>
-                                    </a>
-                                    <a class="items-plataforms"href="">
-                                        <div class="conteiner-icon-plataforms">
-                                            <i class="bi bi-browser-chrome a"></i>
-                                        </div>
-                                        <p class="name-plataforms">Chrome</p>
-                                    </a>
-                                    <a class="items-plataforms"href="">
-                                        <div class="conteiner-icon-plataforms">
-                                            <i class="bi bi-browser-firefox a"></i>
-                                        </div>
-                                        <p class="name-plataforms">Firefox</p>
-                                    </a>
-                                    <a class="items-plataforms"href="">
-                                        <div class="conteiner-icon-plataforms">
-                                            <i class="bi bi-browser-edge a"></i>
-                                        </div>
-                                        <p class="name-plataforms">Edge</p>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                 </div>
+                  <div class="logos">
+                    <img
+                      class="img-l"
+                      width="auto"
+                      height="36px"
+                      src="../img/replace_chatgpt.png"
+                      alt="Remplace Chat GPT"
+                    />
+                    <img
+                      class="img-l"
+                      width="auto"
+                      height="36px"
+                      src="../img/replace_jasper.png"
+                      alt="Remplace Jasper"
+                    />
+                    <img
+                      class="img-l"
+                      width="auto"
+                      height="36px"
+                      src="../img/replace_copyai.png"
+                      alt="Remplace Copy.ia"
+                    />
+                  </div>
                 </div>
-            </div>
-        
-    </section>   
-    <div class="container text-center">
-        <div class="row">
-            <div class="col-12">
-                <div class="fourth-box">
-                <h2 class="the-next">The next generation<br> of team<br> collaboration.</h2>
-                <P class="five-tools">Five tools in one to help you stay organized and get work done. No <br> more gettings lost in tabs. with Taskade, all your work is one place</P>
-                <div class="point-backgraound"></div>
-                </div>
-            </div>
-            <div class="col-12">
-                <div class="card-text">
-                <div class="texto">
-                    <div class="text-one">
-                        <h2 class="ai-writer">Al Content Writer</h2>
-                    </div>
-                    <div class="texto-two">
-                        <p>Create amazing content 10x faster, generate instant outlines and more for your projects.</p>
-                    </div>
-                    <div class="texto-three">
-                    <div class="remplaces">
-                        <p class="title-remplace">Remplace</p>
-                    </div>
-                        <div class="logos">
-                            <img class="img-l"width="auto" height="36px" src="../img/replace_chatgpt.png" alt="Remplace Chat GPT">
-                            <img class="img-l"width="auto" height="36px"src="../img/replace_jasper.png" alt="Remplace Jasper">
-                            <img class="img-l"width="auto" height="36px"src="../img/replace_copyai.png" alt="Remplace Copy.ia">
-                        </div>
-                    </div>
-                </div>
-                <div class="box-video">
-                <video class="vd-blue" width="100%" height="auto" autoplay loop muted="true">
-                    <source src="../video/aidemo.mp4" type="video/mp4">
+              </div>
+              <div class="box-video">
+                <video
+                  class="vd-blue"
+                  width="100%"
+                  height="auto"
+                  autoplay
+                  loop
+                  muted="true"
+                >
+                  <source src="../video/aidemo.mp4" type="video/mp4" />
                   Your browser does not support the video tag.
-                  </video>
+                </video>
+              </div>
+            </div>
+            <div class="point-backgraound-card-2"></div>
+          </div>
+          <div class="col-12">
+            <div class="card-text">
+              <div class="card-img">
+                <img
+                  width="100%"
+                  height="auto"
+                  src="../img/card-1.png"
+                  alt="Taskade Project Views To-Do List Mindmap Kanban"
+                />
+              </div>
+              <div class="texto">
+                <div class="text-one">
+                  <h2 class="ai-writer">Tasks and Projects</h2>
                 </div>
-            </div>
-            <div class="point-backgraound-card"></div>
-            </div>
-            <div class="col-12">
-                <div class="card-text">
-                    <div class="card-img">
-                        <img width="100%" height="auto" src="../img/card-1.png" alt="Taskade Project Views To-Do List Mindmap Kanban">
-                        </div>
-                <div class="texto">
-                    <div class="text-one">
-                        <h2 class="ai-writer">Tasks and Projects</h2>
-                    </div>
-                    <div class="texto-two">
-                        <p>List, board, calendar, mind map, org chart, and action views. Customize your workflow.</p>
-                    </div>
-                    <div class="texto-three">
-                    <div class="remplaces">
-                        <p class="title-remplace">Remplace</p>
-                    </div>
-                        <div class="logos">
-                            <img class="img-l"width="auto" height="36px" src="../img/replace_trello.png" alt="Remplace Chat GPT">
-                            <img class="img-l"width="auto" height="36px"src="../img/replace_asana.png" alt="Remplace Jasper">
-                            <img class="img-l"width="auto" height="36px"src="../img/replace_monday.png" alt="Remplace Copy.ia">
-                        </div>
-                    </div>
+                <div class="texto-two">
+                  <p>
+                    List, board, calendar, mind map, org chart, and action
+                    views. Customize your workflow.
+                  </p>
                 </div>
+                <div class="texto-three">
+                  <div class="remplaces">
+                    <p class="title-remplace">Remplace</p>
+                  </div>
+                  <div class="logos">
+                    <img
+                      class="img-l"
+                      width="auto"
+                      height="36px"
+                      src="../img/replace_trello.png"
+                      alt="Trello"
+                    />
+                    <img
+                      class="img-l"
+                      width="auto"
+                      height="36px"
+                      src="../img/replace_asana.png"
+                      alt="Asana"
+                    />
+                    <img
+                      class="img-l"
+                      width="auto"
+                      height="36px"
+                      src="../img/replace_monday.png"
+                      alt="Monday"
+                    />
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="point-backgraound-card"></div>
-            </div>
+            <div class="point-backgraound-card-3"></div>
+          </div>
         </div>
-    </div>
-    <div class="container text-center">
+      </div>
+      <div class="container text-center">
+        <div class="row after-loved">
+          <div class="col-12">
+            <div class="card-text">
+              <div class="texto">
+                <div class="text-one">
+                  <h2 class="ai-writer">Notes and Docs</h2>
+                </div>
+                <div class="texto-two">
+                  <p>
+                    A simple, structured writing experience with unlimited
+                    hierarchy and collaborative editing.
+                  </p>
+                </div>
+                <div class="texto-three">
+                  <div class="remplaces">
+                    <p class="title-remplace">Remplace</p>
+                  </div>
+                  <div class="logos">
+                    <img
+                      class="img-l"
+                      width="auto"
+                      height="36px"
+                      src="../img/replace_notion.png"
+                      alt="Notion"
+                    />
+                    <img
+                      class="img-l"
+                      width="auto"
+                      height="36px"
+                      src="../img/replace_docs.png"
+                      alt="Google Docs"
+                    />
+                    <img
+                      class="img-l"
+                      width="auto"
+                      height="36px"
+                      src="../img/replace_obsidian.png"
+                      alt="Obsidian"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="card-img">
+                <img
+                  width="100%"
+                  height="auto"
+                  src="../img/card-2.png"
+                  alt="Notes-Docs"
+                />
+              </div>
+            </div>
+            <div class="point-backgraound-card-4"></div>
+          </div>
+          <div class="col-12">
+            <div class="card-text">
+              <div class="card-img">
+                <img
+                  width="100%"
+                  height="auto"
+                  src="../img/card-3.png"
+                  alt="Mind map"
+                />
+              </div>
+              <div class="texto">
+                <div class="text-one">
+                  <h2 class="ai-writer">Mind Maps</h2>
+                </div>
+                <div class="texto-two">
+                  <p>
+                    Organize anything, transform ideas into action items and
+                    track progress in multiple views.
+                  </p>
+                </div>
+                <div class="texto-three">
+                  <div class="remplaces">
+                    <p class="title-remplace">Remplace</p>
+                  </div>
+                  <div class="logos">
+                    <img
+                      class="img-l"
+                      width="auto"
+                      height="36px"
+                      src="../img/replace_miro.png"
+                      alt="Miro"
+                    />
+                    <img
+                      class="img-l"
+                      width="auto"
+                      height="36px"
+                      src="../img/replace_lucid.png"
+                      alt="Lucid"
+                    />
+                    <img
+                      class="img-l"
+                      width="auto"
+                      height="36px"
+                      src="../img/replace_whimsical.png"
+                      alt="Whimsical"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="point-backgraound-card-5"></div>
+          </div>
+          <div class="col-12">
+            <div class="card-text">
+              <div class="texto">
+                <div class="text-one">
+                  <h2 class="ai-writer">Video and Chat</h2>
+                </div>
+                <div class="texto-two">
+                  <p>
+                    Have great meetings with built-in video chat, screen
+                    sharing, and real-time collaboration.
+                  </p>
+                </div>
+                <div class="texto-three">
+                  <div class="remplaces">
+                    <p class="title-remplace">Remplace</p>
+                  </div>
+                  <div class="logos">
+                    <img
+                      class="img-l"
+                      width="auto"
+                      height="36px"
+                      src="../img/replace_slack.png"
+                      alt="Slack"
+                    />
+                    <img
+                      class="img-l"
+                      width="auto"
+                      height="36px"
+                      src="../img/replace_zoom.png"
+                      alt="Zoom"
+                    />
+                    <img
+                      class="img-l"
+                      width="auto"
+                      height="36px"
+                      src="../img/replace_teams.png"
+                      alt="Teams"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="card-img">
+                <img
+                  width="100%"
+                  height="auto"
+                  src="../img/card-4.png"
+                  alt="Video chat"
+                />
+              </div>
+            </div>
+            <div class="point-backgraound-card-6"></div>
+          </div>
+          <div class="col-12">
+            <div class="fourth-box">
+              <h2 class="the-next">
+                Share here, there,<br />
+                and everywhere.<br />
+              </h2>
+              <p class="five-tools">
+                Shareable links make it easy to send projects for review or hop
+                on a<br />
+                real-time chat and video call with stakeholders anywhere.
+              </p>
+              <div class="point-backgraound-7"></div>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="card-text">
+              <div class="texto">
+                <div class="text-one">
+                  <h2 class="ai-writer">Unlimited Sharing</h2>
+                </div>
+                <div class="texto-two">
+                  <p>
+                    Easily share projects with guests, clients, and teams to
+                    chat and collaborate, all in one place.
+                  </p>
+                </div>
+              </div>
+              <div class="card-img">
+                <img
+                  width="100%"
+                  height="auto"
+                  src="../img/app_preview10.png"
+                  alt="Taskade Calendar App"
+                />
+              </div>
+            </div>
+            <div class="point-backgraound-card-8"></div>
+          </div>
+          <div class="col-12">
+            <div class="card-text">
+              <div class="card-img">
+                <img
+                  width="100%"
+                  height="auto"
+                  src="../img/app_preview9.png"
+                  alt="Task Management App"
+                />
+              </div>
+              <div class="texto">
+                <div class="text-one">
+                  <h2 class="ai-writer">Multiple Teams</h2>
+                </div>
+                <div class="texto-two">
+                  <p>
+                    Manage multiple projects and teams with ease with secure and
+                    separate workspaces.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="point-backgraound-card-9"></div>
+          </div>
+        </div>
+      </div>
+      <div class="container text-center">
         <div class="row">
-            <div class="col-12">
-                <div class="card-text">
-                <div class="texto">
-                    <div class="text-one">
-                        <h2 class="ai-writer">Notes and Docs</h2>
-                    </div>
-                    <div class="texto-two">
-                        <p>A simple, structured writing experience with unlimited hierarchy and collaborative editing.</p>
-                    </div>
-                    <div class="texto-three">
-                    <div class="remplaces">
-                        <p class="title-remplace">Remplace</p>
-                    </div>
-                        <div class="logos">
-                            <img class="img-l"width="auto" height="36px" src="../img/replace_notion.png" alt="Remplace Chat GPT">
-                            <img class="img-l"width="auto" height="36px"src="../img/replace_docs.png" alt="Remplace Jasper">
-                            <img class="img-l"width="auto" height="36px"src="../img/replace_obsidian.png" alt="Remplace Copy.ia">
-                        </div>
-                    </div>
+          <div class="col-12">
+            <div class="comments">
+              <div class="comments-title">
+                <div class="comments-love">
+                  <h2 class="text-love">
+                    Loved by modern teams around the world.
+                  </h2>
                 </div>
-                <div class="card-img">
-                    <img width="100%" height="auto" src="../img/card-2.png" alt="Taskade Project Views To-Do List Mindmap Kanban">
+                <div class="comments-btn">
+                  <a href="https://www.taskade.com/reviews"
+                    ><button class="btn-more">
+                      More customer stories<span class="symbol"> ↗</span>
+                    </button></a
+                  >
                 </div>
-            </div>
-            <div class="point-backgraound-card"></div>
-            </div>
-            <div class="col-12">
-                <div class="card-text">
-                    <div class="card-img">
-                        <img width="100%" height="auto" src="../img/card-3.png" alt="Taskade Project Views To-Do List Mindmap Kanban">
-                        </div>
-                <div class="texto">
-                    <div class="text-one">
-                        <h2 class="ai-writer">Mind Maps</h2>
+              </div>
+              <div class="comments-cards">
+                <div class="comments-customer">
+                  <div class="comments-text">
+                    <p class="customer">
+                      Amazing product! We're a remote team (aren't we all right
+                      now), and being on the same page regarding our roadmap and
+                      current objectives is extremely important. Taskade has
+                      done an amazing job of being an easy-to-use and powerful
+                      tool to help keep teams on the right path.
+                    </p>
+                  </div>
+                  <div class="comments-person">
+                    <img
+                      class="img-profile"
+                      src="../img/taskader-1.png"
+                      alt="profile"
+                    />
+                    <div class="comments-name">
+                      <p class="name">Myles Jackson</p>
                     </div>
-                    <div class="texto-two">
-                        <p>Organize anything, transform ideas into action items and track progress in multiple views.</p>
-                    </div>
-                    <div class="texto-three">
-                    <div class="remplaces">
-                        <p class="title-remplace">Remplace</p>
-                    </div>
-                        <div class="logos">
-                            <img class="img-l"width="auto" height="36px" src="../img/replace_miro.png" alt="Remplace Chat GPT">
-                            <img class="img-l"width="auto" height="36px"src="../img/replace_lucid.png" alt="Remplace Jasper">
-                            <img class="img-l"width="auto" height="36px"src="../img/replace_whimsical.png" alt="Remplace Copy.ia">
-                        </div>
-                    </div>
+                  </div>
                 </div>
+                <div class="comments-customer">
+                  <div class="comments-text">
+                    <p class="customer">
+                      After years of switching out notes and to-do apps, I think
+                      I ve finally settled on Taskade. Very flexible system
+                      where you can format notes and lists however you like.
+                      Like a digital bullet journal.
+                    </p>
+                  </div>
+                  <div class="comments-person">
+                    <img
+                      class="img-profile"
+                      src="../img/taskader-2.png"
+                      alt="profile"
+                    />
+                    <div class="comments-name">
+                      <p class="name">Addison Smith</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="comments-customer">
+                  <div class="comments-text">
+                    <p class="customer">
+                      I have explored all the collaboration tools out there, and
+                      Taskade is the best. I am using this for my team, existing
+                      clients, and future clients as well.
+                    </p>
+                  </div>
+                  <div class="comments-person">
+                    <img
+                      class="img-profile"
+                      src="../img/taskader-3.png"
+                      alt="profile"
+                    />
+                    <div class="comments-name">
+                      <p class="name">John Laviña</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="comments-points">
+                <button class="btn-points-first"></button>
+                <button class="btn-points"></button>
+                <button class="btn-points"></button>
+                <button class="btn-points"></button>
+                <button class="btn-points"></button>
+              </div>
             </div>
-            <div class="point-backgraound-card"></div>
-            </div>   
-                    <div class="col-12">
-                        <div class="card-text">
-                        <div class="texto">
-                            <div class="text-one">
-                                <h2 class="ai-writer">Video and Chat</h2>
-                            </div>
-                            <div class="texto-two">
-                                <p>Have great meetings with built-in video chat, screen sharing, and real-time collaboration.</p>
-                            </div>
-                            <div class="texto-three">
-                            <div class="remplaces">
-                                <p class="title-remplace">Remplace</p>
-                            </div>
-                                <div class="logos">
-                                    <img class="img-l"width="auto" height="36px" src="../img/replace_slack.png" alt="Remplace Chat GPT">
-                                    <img class="img-l"width="auto" height="36px"src="../img/replace_zoom.png" alt="Remplace Jasper">
-                                    <img class="img-l"width="auto" height="36px"src="../img/replace_teams.png" alt="Remplace Copy.ia">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card-img">
-                            <img width="100%" height="auto" src="../img/card-4.png" alt="Taskade Project Views To-Do List Mindmap Kanban">
-                        </div>
-                    </div>
-                    <div class="point-backgraound-card"></div>
-                    </div>
-                    <div class="col-12">
-                        <div class="fourth-box">
-                        <h2 class="the-next">Share here, there,<br> and everywhere.<br></h2>
-                        <P class="five-tools">Shareable links make it easy to send projects for review or hop on a<br> real-time chat and video call with stakeholders anywhere.</P>
-                        <div class="point-backgraound"></div>
-                        </div>
-                    </div>    
+          </div>
         </div>
+
+        <div class="last-cards">
+          <div class="title-workflows">
+            <h2 class="one-pltaform">
+              One platform to unite all your workflows.
+            </h2>
+          </div>
+          <div class="all-cards">
+            <div class="card card-workflows" style="width: 100%">
+              <img
+                src="../img/custom_templates.png"
+                class="card-img-top"
+                alt="custom templates"
+              />
+              <div class="card-body">
+                <h4 class="card-title">A simpler project workflow</h4>
+                <p class="card-text">
+                  Automate work processes by creating custom templates for your
+                  teams. Say goodbye to repetitive workflows and project
+                  creation.
+                </p>
+              </div>
+            </div>
+            <div class="card card-workflows" style="width: 100%">
+              <img
+                src="../img/tooltip_duedates.png"
+                class="card-img-top"
+                alt="tooltip duedates"
+              />
+              <div class="card-body">
+                <h4 class="card-title">Repeat task dates with ease</h4>
+                <p class="card-text">
+                  Set up recurring tasks with ease and keep everyone in the
+                  loop. Get task reminders via email, browser, desktop, and
+                  mobile.
+                </p>
+              </div>
+            </div>
+            <div class="card card-workflows" style="width: 100%">
+              <img
+                src="../img/taskade-slash-command.gif"
+                class="card-img-top"
+                alt="taskade slash command"
+              />
+              <div class="card-body">
+                <h4 class="card-title">Level up with /slash commands</h4>
+                <p class="card-text">
+                  Simply type “/” to access a range of commands, including
+                  adding due dates, changing formats, and creating new blocks.
+                </p>
+              </div>
+            </div>
+            <div class="card card-workflows" style="width: 100%">
+              <img
+                src="../img/taskade-nlp.png"
+                class="card-img-top"
+                alt="taskade nlp"
+              />
+              <div class="card-body">
+                <h4 class="card-title">Add tasks with natural language</h4>
+                <p class="card-text">
+                  With Taskade s natural language recognition and recurring task
+                  options, quickly add due dates to your tasks and get more
+                  done.
+                </p>
+              </div>
+            </div>
+            <div class="card card-workflows" style="width: 100%">
+              <img
+                src="../img/taskade-drag-n-drop.png"
+                class="card-img-top"
+                alt="taskade drag n drop"
+              />
+              <div class="card-body">
+                <h4 class="card-title">Think with drag and drop</h4>
+                <p class="card-text">
+                  Organize your tasks and notes with Taskade’s versatile editor.
+                  Outline your ideas and rearrange them in any order to keep
+                  your tasks on track.
+                </p>
+              </div>
+            </div>
+            <div class="card card-workflows" style="width: 100%">
+              <img
+                src="../img/tooltip_example.png"
+                class="card-img-top"
+                alt="tooltip example"
+              />
+              <div class="card-body">
+                <h4 class="card-title">Manage multiple teams</h4>
+                <p class="card-text">
+                  Taskade makes it easy to manage and organize your projects and
+                  teams across multiple workspaces.
+                </p>
+              </div>
+            </div>
+            <div class="card card-workflows" style="width: 100%">
+              <img
+                src="../img/taskade-integrations.gif"
+                class="card-img-top"
+                alt="taskade integrations"
+              />
+              <div class="card-body">
+                <h4 class="card-title">Embed your favorite tools</h4>
+                <p class="card-text">
+                  Upload from Google Drive, Dropbox, and more or simply embed
+                  content from tools like Youtube, Loom, and more.
+                </p>
+              </div>
+            </div>
+            <div class="card card-workflows" style="width: 100%">
+              <img
+                src="../img/tooltip_widgets.png"
+                class="card-img-top"
+                alt="tooltip widgets"
+              />
+              <div class="card-body">
+                <h4 class="card-title">Customize your homescreen</h4>
+                <p class="card-text">
+                  Stay productive on-the-go with Taskade’s mobile widgets.
+                  Access your tasks, projects, and workflows right from your
+                  home screen.
+                </p>
+              </div>
+            </div>
+            <div class="card card-workflows" style="width: 100%">
+              <img
+                src="../img/tooltip_desktop.png"
+                class="card-img-top"
+                alt="Tooltip desktop"
+              />
+              <div class="card-body">
+                <h4 class="card-title">Sync across devices</h4>
+                <p class="card-text">
+                  Take Taskade with you anywhere with real-time sync across all
+                  your devices and team members. Available on iOS, Android, Mac,
+                  PC and more.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="companies">
+        <div class="title-companies">
+          <h5 class="trusted">Trusted and loved by teams at:</h5>
+        </div>
+
+        <div class="companies-logo">
+          <div class="lyfy">
+            <img
+              width="50%"
+              src="../img/Lyft logo white rgb cropped.png"
+              alt="Lyft"
+            />
+          </div>
+
+          <div class="transfer">
+            <img
+              class="trans-logo"
+              width="100%"
+              src="../img/TransferWise-logo.png"
+              alt="TransferWise"
+            />
+          </div>
+
+          <div class="compass">
+            <img width="100%" src="../img/Compass-White.png" alt="Compass" />
+          </div>
+
+          <div class="netflix">
+            <img
+              class="netflix-logo"
+              width="80%"
+              src="../img/netflix-logo-black-and-white-1.png"
+              alt="Netflix"
+            />
+          </div>
+
+          <div class="booking">
+            <img width="80%" src="../img/booking-com-logo.png" alt="Booking" />
+          </div>
+
+          <div class="sony">
+            <img
+              width="80%"
+              src="../img/sony-logo-black-and-white.png"
+              alt="Sony"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="conteiner-teams-c">
+        <div class="conteiner-teams-b">
+          <div class="container-teams-a">
+            <h3 class="title-teams">
+              Join the 82,967 teams who collaborate on
+              <span class="taskade-gradient">Taskade</span>
+            </h3>
+            <p class="text-teams">
+              Unleash the power of remote teamwork with Taskade. Chat, organize,
+              get things done, all in one place. No more scattered to-do lists,
+              cluttered inboxes, or disorganized work. Get organized,
+              productive, and connected.
+            </p>
+            <div class="container-your-email-c">
+              <form class="container-your-email-b">
+                <div class="your-email-a">
+                  <input
+                    class="email-box"
+                    type="email"
+                    placeholder="Your email"
+                  />
+                  <input
+                    class="email-submit"
+                    type="submit"
+                    value="Get started"
+                  />
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="last-main">
+        <div class="container text-center">
+          <div class="row-colums">
+            <div class="col">
+              <div class="taskade-colum">
+                <a class="colum-last-main-title" href="https://www.taskade.com/"
+                  >Taskade</a
+                >
+                <a
+                  class="items-last-colum-main"
+                  href="https://www.taskade.com/about"
+                  >About</a
+                >
+                <a
+                  class="items-last-colum-main"
+                  href="https://www.taskade.com/pricing"
+                  >Pricing</a
+                >
+                <a
+                  class="items-last-colum-main"
+                  href="https://www.taskade.com/press"
+                  >Press</a
+                >
+                <a
+                  class="items-last-colum-main"
+                  href="https://www.taskade.com/jobs"
+                  >Jobs</a
+                >
+                <a
+                  class="items-last-colum-main"
+                  href="https://www.taskade.com/faq"
+                  >FAQ</a
+                >
+                <a
+                  class="items-last-colum-main"
+                  href="https://www.taskade.com/reviews"
+                  >Reviews</a
+                >
+                <a
+                  class="items-last-colum-main"
+                  href="https://www.taskade.com/compare"
+                  >Compare</a
+                >
+                <a
+                  class="items-last-colum-main"
+                  href="https://help.taskade.com/"
+                  >Help Center</a
+                >
+                <a
+                  class="items-last-colum-main"
+                  href="https://www.taskade.com/feedback"
+                  >Community Forum</a
+                >
+                <a
+                  class="items-last-colum-main"
+                  href="https://partners.taskade.com/"
+                  >Affiliate Partners</a
+                >
+                <a
+                  class="items-last-colum-main"
+                  href="https://status.taskade.com/"
+                  >Server Status</a
+                >
+                <a
+                  class="items-last-colum-main"
+                  href="https://www.taskade.com/integrations"
+                  >Integrations</a
+                >
+                <a
+                  class="items-last-colum-main"
+                  href="https://www.taskade.com/contact"
+                  >Contact</a
+                >
+              </div>
+            </div>
+            <div class="col">
+              <div class="download-colum">
+                <a
+                  class="colum-last-main-title"
+                  href="https://www.taskade.com/downloads"
+                  >Downloads</a
+                >
+                <a
+                  class="items-last-colum-main"
+                  href="https://play.google.com/store/apps/details?id=com.taskade.mobile"
+                  >Android</a
+                >
+                <a
+                  class="items-last-colum-main"
+                  href="https://apps.apple.com/us/app/taskade-team-productivity/id1264713923"
+                  >iOS</a
+                >
+                <a
+                  class="items-last-colum-main"
+                  href="https://apps.taskade.com/updates/Taskade-4.2.8-universal.dmg"
+                  >Mac</a
+                >
+                <a
+                  class="items-last-colum-main"
+                  href="https://apps.apple.com/app/taskade/id1490048917"
+                  >Mac App Store</a
+                >
+                <a
+                  class="items-last-colum-main"
+                  href="https://apps.taskade.com/updates/Taskade_Setup_4.2.8.exe"
+                  >Windows</a
+                >
+                <a
+                  class="items-last-colum-main"
+                  href="https://www.microsoft.com/p/taskade/9p1jh1d9bg26"
+                  >Microsoft Store</a
+                >
+                <a
+                  class="items-last-colum-main"
+                  href="https://apps.taskade.com/updates/Taskade_4.2.8_arm64.AppImage"
+                  >Linux (x86)</a
+                >
+                <a
+                  class="items-last-colum-main"
+                  href="https://apps.taskade.com/updates/Taskade_4.2.8_arm64.AppImage"
+                  >Linux (ARM)</a
+                >
+                <a
+                  class="items-last-colum-main"
+                  href="https://snapcraft.io/taskade/"
+                  >Snap Store</a
+                >
+                <a
+                  class="items-last-colum-main"
+                  href="https://chrome.google.com/webstore/detail/taskade/hcobdfnjjaceclfdjpmmpiknimccjpmf?hl=en-US"
+                  >Chrome</a
+                >
+                <a
+                  class="items-last-colum-main"
+                  href="https://addons.mozilla.org/en-US/firefox/addon/taskade-app/"
+                  >Firefox</a
+                >
+                <a
+                  class="items-last-colum-main"
+                  href="https://microsoftedge.microsoft.com/addons/detail/oocnohmkpeeideflaepaogbgkgdggdic"
+                  >Edge</a
+                >
+              </div>
+            </div>
+            <div class="col">
+              <div class="productos-colum">
+                <a
+                  class="colum-last-main-title"
+                  href="https://www.taskade.com/ai"
+                  >Products</a
+                >
+                <a
+                  class="items-last-colum-main"
+                  href="https://www.taskade.com/ai/app"
+                  >Taskade AI</a
+                >
+                <a
+                  class="items-last-colum-main"
+                  href="https://www.taskade.com/ai/chat"
+                  >AI Chat</a
+                >
+                <a
+                  class="items-last-colum-main"
+                  href="https://www.taskade.com/ai/tasks"
+                  >AI Tasks</a
+                >
+                <a
+                  class="items-last-colum-main"
+                  href="https://www.taskade.com/ai/notes"
+                  >AI Notes</a
+                >
+                <a
+                  class="items-last-colum-main"
+                  href="https://www.taskade.com/ai/writer"
+                  >AI Writer</a
+                >
+                <a
+                  class="items-last-colum-main"
+                  href="https://www.taskade.com/ai/outline"
+                  >AI Outline</a
+                >
+                <a
+                  class="items-last-colum-main"
+                  href="https://www.taskade.com/ai/agency"
+                  >AI Agency</a
+                >
+                <a
+                  class="items-last-colum-main"
+                  href="https://www.taskade.com/ai/designer"
+                  >AI Designer</a
+                >
+                <a
+                  class="items-last-colum-main"
+                  href="https://www.taskade.com/ai/mind-map"
+                  >AI Mind Map</a
+                >
+                <a
+                  class="items-last-colum-main"
+                  href="https://www.taskade.com/ai/marketing"
+                  >AI Marketing</a
+                >
+                <a
+                  class="items-last-colum-main"
+                  href="https://www.taskade.com/ai/developer"
+                  >AI Developers</a
+                >
+                <a
+                  class="items-last-colum-main"
+                  href="https://www.taskade.com/ai/startups"
+                  >AI for Startups</a
+                >
+                <a
+                  class="items-last-colum-main"
+                  href="https://www.taskade.com/ai/education"
+                  >AI for Education</a
+                >
+                <a
+                  class="items-last-colum-main"
+                  href="https://www.taskade.com/ai/nonprofits"
+                  >AI for Nonprofits</a
+                >
+              </div>
+            </div>
+            <div class="col">
+              <div class="templates-colum">
+                <a
+                  class="colum-last-main-title"
+                  href="https://www.taskade.com/templates"
+                  >Templates</a
+                >
+                <a
+                  class="items-last-colum-main"
+                  href="https://www.taskade.com/templates/featured"
+                  >Featured</a
+                >
+                <a
+                  class="items-last-colum-main"
+                  href="https://www.taskade.com/templates/ai"
+                  >ChatGPT</a
+                >
+                <a
+                  class="items-last-colum-main"
+                  href="https://www.taskade.com/templates/personal"
+                  >Personal</a
+                >
+                <a
+                  class="items-last-colum-main"
+                  href="https://www.taskade.com/templates/project-management"
+                  >Project Management</a
+                >
+                <a
+                  class="items-last-colum-main"
+                  href="https://www.taskade.com/templates/task-management"
+                  >Task Management</a
+                >
+                <a
+                  class="items-last-colum-main"
+                  href="https://www.taskade.com/templates/engineering"
+                  >Engineering</a
+                >
+                <a
+                  class="items-last-colum-main"
+                  href="https://www.taskade.com/templates/education"
+                  >Education</a
+                >
+              </div>
+              <div class="see-all-colum">
+                <button class="see-all-btn">See all <span>▼</span></button>
+              </div>
+              <div class="generators-colum">
+                <a
+                  class="colum-last-main-title"
+                  href="https://www.taskade.com/generate"
+                  >Generators</a
+                >
+                <a
+                  class="items-last-colum-main"
+                  href="https://www.taskade.com/generate/ai"
+                  >AI</a
+                >
+                <a
+                  class="items-last-colum-main"
+                  href="https://www.taskade.com/generate/content"
+                  >AI Content</a
+                >
+                <div class="see-all-colum">
+                  <button class="see-all-btn">See all <span>▼</span></button>
+                </div>
+              </div>
+              <div class="col">
+                <div class="blog-colum">
+                  <a class="colum-last-main-title" href="">Blog</a>
+                  <a href="">
+                    <span>
+                      <span></span>
+                    </span>
+                  </a>
+                  <a
+                    class="rocket"
+                    href="https://www.taskade.com/blog/ai-chat-summary-smart-search-drag-tasks-projects/"
+                    >🚀 AI Chat (Beta), Bulk AI Summary, Smart Search, Drag to
+                    Move Tasks & Projects, and More!</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="foot">
+        <div class="text-foot">
+          <div class="contenedor-text-foot">
+            <p>Made with<span>❤️</span>in</p>
+            <ul class="trancicion-lugares">
+              <li>Madrid</li>
+              <li>New York, US</li>
+              <li>California, US</li>
+            </ul>
+          </div>
+          <div class="taskade-privacy">
+            <a class="taskade-year" href="">© 2023 Taskade.</a>
+            <div class="privacy-terms-security">
+              <a class="terms" href=""> Privacy</a>
+              <a class="terms" href=""> Terms</a>
+              <a class="terms" href=""> Security</a>
+            </div>
+
+            <div class="social-icon-b">
+              <a class="social-icon-a" href=""
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M24 11.779a2.654 2.654 0 0 0-4.497-1.899c-1.81-1.191-4.259-1.949-6.971-2.046l1.483-4.669 4.016.941-.006.058a2.17 2.17 0 0 0 2.174 2.163 2.17 2.17 0 0 0 2.172-2.163 2.171 2.171 0 0 0-4.193-.785l-4.329-1.015a.37.37 0 0 0-.44.249L11.755 7.82c-2.838.034-5.409.798-7.3 2.025a2.643 2.643 0 0 0-1.799-.712A2.654 2.654 0 0 0 0 11.779c0 .97.533 1.811 1.317 2.271a4.716 4.716 0 0 0-.086.857C1.231 18.818 6.039 22 11.95 22s10.72-3.182 10.72-7.093c0-.274-.029-.544-.075-.81A2.633 2.633 0 0 0 24 11.779zM6.776 13.595c0-.868.71-1.575 1.582-1.575.872 0 1.581.707 1.581 1.575s-.709 1.574-1.581 1.574-1.582-.706-1.582-1.574zm9.061 4.669c-.797.793-2.048 1.179-3.824 1.179L12 19.44l-.013.003c-1.777 0-3.028-.386-3.824-1.179a.369.369 0 0 1 0-.523.372.372 0 0 1 .526 0c.65.647 1.729.961 3.298.961l.013.003.013-.003c1.569 0 2.648-.315 3.298-.962a.373.373 0 0 1 .526 0 .37.37 0 0 1 0 .524zm-.189-3.095a1.58 1.58 0 0 1-1.581-1.574c0-.868.709-1.575 1.581-1.575s1.581.707 1.581 1.575-.709 1.574-1.581 1.574z"
+                  ></path></svg
+              ></a>
+              <a class="social-icon-a" href=""
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0C.488 3.45.029 5.804 0 12c.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0C23.512 20.55 23.971 18.196 24 12c-.029-6.185-.484-8.549-4.385-8.816zM9 16V8l8 3.993L9 16z"
+                  ></path></svg
+              ></a>
+              <a class="social-icon-a" href=""
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"
+                  ></path></svg
+              ></a>
+              <a class="social-icon-a" href=""
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"
+                  ></path></svg
+              ></a>
+              <a class="social-icon-a" href=""
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M24 4.557a9.83 9.83 0 0 1-2.828.775 4.932 4.932 0 0 0 2.165-2.724 9.864 9.864 0 0 1-3.127 1.195 4.916 4.916 0 0 0-3.594-1.555c-3.179 0-5.515 2.966-4.797 6.045A13.978 13.978 0 0 1 1.671 3.149a4.93 4.93 0 0 0 1.523 6.574 4.903 4.903 0 0 1-2.229-.616c-.054 2.281 1.581 4.415 3.949 4.89a4.935 4.935 0 0 1-2.224.084 4.928 4.928 0 0 0 4.6 3.419A9.9 9.9 0 0 1 0 19.54a13.94 13.94 0 0 0 7.548 2.212c9.142 0 14.307-7.721 13.995-14.646A10.025 10.025 0 0 0 24 4.557z"
+                  ></path></svg
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"
+      ></script>
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-    crossorigin="anonymous"></script>
-</div>    
-</body>
+  </body>
 </html>
